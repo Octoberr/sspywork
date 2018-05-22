@@ -1,5 +1,5 @@
 """
-获取ip138的信息，并且调用有道的借口访问
+获取ip138的信息，并且调用有道的接口翻译文本
 """
 import requests
 from bs4 import BeautifulSoup
@@ -7,7 +7,6 @@ import hashlib
 import json
 
 from prepareforwork.someusefuldict import MONGO
-
 
 
 startUrl = 'http://www.ip138.com/yuming/'
