@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b48e178-5230-49c6-a220-8c88e21b36f1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/prepareforwork/prcexception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facebook/facebook/spiders/crawlfacebook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facebook/quickstart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prepareforwork/facebookapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shensiwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shensiwork.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepareforwork/getip138info.py" beforeDir="false" afterPath="$PROJECT_DIR$/prepareforwork/getip138info.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,6 +19,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/shensiwork$zoomeyeclass.coverage" NAME="zoomeyeclass Coverage Results" MODIFIED="1525405894793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
     <SUITE FILE_PATH="coverage/shensiwork$getip138info.coverage" NAME="getip138info Coverage Results" MODIFIED="1525919541631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
+    <SUITE FILE_PATH="coverage/shensiwork$facebookapi.coverage" NAME="facebookapi Coverage Results" MODIFIED="1527213865174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
     <SUITE FILE_PATH="coverage/shensiwork$someusefuldict.coverage" NAME="someusefuldict Coverage Results" MODIFIED="1525422908804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
     <SUITE FILE_PATH="coverage/shensiwork$prcexception.coverage" NAME="prcexception Coverage Results" MODIFIED="1526279876052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
     <SUITE FILE_PATH="coverage/shensiwork$simulate_voxer.coverage" NAME="simulate_voxer Coverage Results" MODIFIED="1525418846417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
@@ -24,23 +28,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="getip138info.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prepareforwork/getip138info.py">
+      <file leaf-file-name="facebookapi.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/prepareforwork/facebookapi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#31#46#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="511">
+              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prcexception.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/prepareforwork/prcexception.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/facebook/facebook/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+            <state relative-caret-position="378">
+              <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crawlfacebook.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/facebook/facebook/spiders/crawlfacebook.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <folding>
+                <element signature="e#22#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,6 +86,11 @@
         <option value="$PROJECT_DIR$/prepareforwork/someusefuldict.py" />
         <option value="$PROJECT_DIR$/prepareforwork/getip138info.py" />
         <option value="$PROJECT_DIR$/prepareforwork/prcexception.py" />
+        <option value="$PROJECT_DIR$/facebook/quickstart.py" />
+        <option value="$PROJECT_DIR$/facebook/facebook/spiders/bijiao.py" />
+        <option value="$PROJECT_DIR$/facebook/facebook/settings.py" />
+        <option value="$PROJECT_DIR$/facebook/facebook/spiders/crawlfacebook.py" />
+        <option value="$PROJECT_DIR$/prepareforwork/facebookapi.py" />
       </list>
     </option>
   </component>
@@ -86,10 +104,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="87" />
-    <option name="y" value="7" />
-    <option name="width" value="1190" />
-    <option name="height" value="832" />
+    <option name="x" value="528" />
+    <option name="y" value="50" />
+    <option name="width" value="1235" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -99,7 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,13 +126,13 @@
             </path>
             <path>
               <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="prepareforwork" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,7 +159,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.prcexception">
+  <component name="RunManager" selected="Python.facebookapi">
+    <configuration name="facebookapi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="shensiwork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prepareforwork" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prepareforwork/facebookapi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="getip138info" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,25 +236,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="simulate_voxer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="shensiwork" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prepareforwork" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prepareforwork/simulate_voxer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="someusefuldict" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,18 +257,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.quickstart (1)" />
-      <item itemvalue="Python.simulate_voxer" />
       <item itemvalue="Python.someusefuldict" />
       <item itemvalue="Python.getip138info" />
       <item itemvalue="Python.prcexception" />
+      <item itemvalue="Python.facebookapi" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.facebookapi" />
         <item itemvalue="Python.prcexception" />
         <item itemvalue="Python.getip138info" />
         <item itemvalue="Python.quickstart (1)" />
         <item itemvalue="Python.someusefuldict" />
-        <item itemvalue="Python.simulate_voxer" />
       </list>
     </recent_temporary>
   </component>
@@ -279,20 +296,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32756132" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007163" side_tool="true" weight="0.34056988" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.34464043" />
-      <window_info anchor="right" id="Mongo Explorer" order="3" weight="0.14899713" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.4762551" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" weight="0.1504298" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17979942" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16475645" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -303,6 +318,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,11 +347,50 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/prepareforwork/getip138info.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepareforwork/prcexception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepareforwork/getip138info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepareforwork/prcexception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepareforwork/getip138info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepareforwork/prcexception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepareforwork/getip138info.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2565">
           <caret line="95" column="24" lean-forward="true" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
-          <folding>
-            <element signature="e#31#46#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -350,9 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="999">
           <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding>
-            <element signature="e#31#46#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -360,9 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1971">
           <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-          <folding>
-            <element signature="e#31#46#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -478,20 +527,51 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prepareforwork/login.js" />
+    <entry file="file://$PROJECT_DIR$/prepareforwork/prcexception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/prepareforwork/getip138info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="-783">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facebook/quickstart.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facebook/facebook/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facebook/facebook/spiders/bijiao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="6" lean-forward="true" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facebook/facebook/spiders/crawlfacebook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding>
-            <element signature="e#31#46#0" expanded="true" />
+            <element signature="e#22#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prepareforwork/prcexception.py">
+    <entry file="file://$PROJECT_DIR$/prepareforwork/facebookapi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <state relative-caret-position="511">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
         </state>
       </provider>
     </entry>
