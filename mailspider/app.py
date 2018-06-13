@@ -10,7 +10,7 @@ import gevent.monkey
 from gevent.pywsgi import WSGIServer
 gevent.monkey.patch_all()
 # 内部引用
-from .tom.tomspider import MAIL
+from tom.tomspider import MAIL
 app = Flask(__name__)
 
 

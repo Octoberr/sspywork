@@ -13,7 +13,7 @@ import datetime
 import uuid
 import base64
 
-from conf import config
+from .conf import config
 # 导入同级别的文件夹的方法
 import sys
 sys.path.append('..')

@@ -1,0 +1,207 @@
+usernameTweet: Flashs_Books
+ID: 1006749756096425984
+name: Patrick Schroeder
+screen_name: Flashs_Books
+useravatar: https://pbs.twimg.com/profile_images/805293531753549825/JHnfQjZQ_bigger.jpg
+text: So they think MLB players can't handle pitching a different inning than usual? Gimme a break.
+usrurl: https://twitter.com/Flashs_Books/status/1006749756096425984
+datetime: 2018-06-13 12:07:01
+is_reply: True
+is_retweet: False
+user_id: 87827694
+
+usernameTweet: EQG_FlashS
+ID: 1006686780849098752
+name: Flash Sentry
+screen_name: EQG_FlashS
+useravatar: https://pbs.twimg.com/profile_images/968978741685817344/GFHHcga9_bigger.jpg
+text: Flash takes a moment from guitar practice to check his phone. He quickly replies with [Yeah, my schedule’s open then.]
+usrurl: https://twitter.com/EQG_FlashS/status/1006686780849098752
+datetime: 2018-06-13 07:56:46
+is_reply: False
+is_retweet: False
+user_id: 2280895916
+
+usernameTweet: EQG_Rimshot
+ID: 1006686179226537989
+name: Rimshot
+screen_name: EQG_Rimshot
+useravatar: https://pbs.twimg.com/profile_images/925761485221089281/4tIYrQdS_bigger.jpg
+text: *He texts Fluttershy, @EQG_SkyMav , and @EQG_ FlashS * [Sup? Hey, we are looking at doing that house on the beach thing July 29th until Aug. 5th. Does that work for you all?]
+usrurl: https://twitter.com/EQG_Rimshot/status/1006686179226537989
+datetime: 2018-06-13 07:54:23
+is_reply: False
+is_retweet: False
+user_id: 1547348077
+
+usernameTweet: anxiety_16
+ID: 1006648867255799808
+name: ✨High-Functioning Sociopath✨
+screen_name: anxiety_16
+useravatar: https://pbs.twimg.com/profile_images/1006747371718529024/n6bb6GPN_bigger.jpg
+text: * Flashs  Back To Yesterday When You Tried To Kill Me* Ha Ha Yes LOVE
+usrurl: https://twitter.com/anxiety_16/status/1006648867255799808
+datetime: 2018-06-13 05:26:07
+is_reply: True
+is_retweet: False
+user_id: 794605747795464192
+
+usernameTweet: TheFlashsBunny
+ID: 1006637327312187392
+name: 🇫🇷 🐰☇Barry's Bunny☇🐰 🇫🇷
+screen_name: TheFlashsBunny
+useravatar: https://pbs.twimg.com/profile_images/1000406527050747906/jH53mB9i_bigger.jpg
+text: I need a full soundtrack of this musical with Melissa's voice 
+usrurl: https://twitter.com/TheFlashsBunny/status/1006637327312187392
+datetime: 2018-06-13 04:40:15
+is_reply: True
+is_retweet: False
+user_id: 273465039
+
+usernameTweet: KnaufRacingTeam
+ID: 1006556072092585985
+name: Knauf Racing Team
+screen_name: KnaufRacingTeam
+useravatar: https://pbs.twimg.com/profile_images/960806586938806277/Q0XyJvVA_bigger.jpg
+text: Isaakyan a encore des " flashs " de son looping  http:// po.st/xh3IBu   pic.twitter.com/SGyp8iVpfw
+usrurl: https://twitter.com/KnaufRacingTeam/status/1006556072092585985
+datetime: 2018-06-12 23:17:23
+is_reply: False
+is_retweet: False
+user_id: 960805739915874305
+
+usernameTweet: thefastestom
+ID: 1006414230709563393
+name: FlashStrike
+screen_name: thefastestom
+useravatar: https://pbs.twimg.com/profile_images/880158117119569920/Hj0SRV0s_bigger.jpg
+text: *If shes not watching flash will look back to tracker and blushes upon seeing the brown tom with black stripes making  flashs  heart a flutter*
+usrurl: https://twitter.com/thefastestom/status/1006414230709563393
+datetime: 2018-06-12 13:53:45
+is_reply: True
+is_retweet: False
+user_id: 870091747229093893
+
+usernameTweet: TheFlashsBunny
+ID: 1006262449857814528
+name: 🇫🇷 🐰☇Barry's Bunny☇🐰 🇫🇷
+screen_name: TheFlashsBunny
+useravatar: https://pbs.twimg.com/profile_images/1000406527050747906/jH53mB9i_bigger.jpg
+text: Thank u @EmpireConv  for a quiet con, well organised. Hoping for Heroes Assemble 2   #HAC  @chy_leigh  @JeremyMJordan  #KatieMcGrath pic.twitter.com/wd7i85VOE3
+usrurl: https://twitter.com/TheFlashsBunny/status/1006262449857814528
+datetime: 2018-06-12 03:50:38
+is_reply: False
+is_retweet: False
+user_id: 273465039
+
+usernameTweet: gw_vink
+ID: 1006245502273441798
+name: pêche
+screen_name: gw_vink
+useravatar: https://pbs.twimg.com/profile_images/997399065653465088/Bvdpa9G__bigger.jpg
+text: Soon des  flashs  sur Kingdom Hearts be prepared
+usrurl: https://twitter.com/gw_vink/status/1006245502273441798
+datetime: 2018-06-12 02:43:17
+is_reply: False
+is_retweet: False
+user_id: 2884626425
+
+usernameTweet: TheFlashsBunny
+ID: 1005848600134455297
+name: 🇫🇷 🐰☇Barry's Bunny☇🐰 🇫🇷
+screen_name: TheFlashsBunny
+useravatar: https://pbs.twimg.com/profile_images/1000406527050747906/jH53mB9i_bigger.jpg
+text: Thank you @EmpireConv  for a great con! It's good to have quiet cons like this well done. #HAC
+usrurl: https://twitter.com/TheFlashsBunny/status/1005848600134455297
+datetime: 2018-06-11 00:26:08
+is_reply: False
+is_retweet: False
+user_id: 273465039
+
+usernameTweet: TheFlashsBunny
+ID: 1005783511587000321
+name: 🇫🇷 🐰☇Barry's Bunny☇🐰 🇫🇷
+screen_name: TheFlashsBunny
+useravatar: https://pbs.twimg.com/profile_images/1000406527050747906/jH53mB9i_bigger.jpg
+text: Hug from @chy_leigh  kiss + hug from #KatieMcGrath  .. not a bad sunday so far   #HAC
+usrurl: https://twitter.com/TheFlashsBunny/status/1005783511587000321
+datetime: 2018-06-10 20:07:30
+is_reply: False
+is_retweet: False
+user_id: 273465039
+
+usernameTweet: TheFlashsBunny
+ID: 1005748202585444352
+name: 🇫🇷 🐰☇Barry's Bunny☇🐰 🇫🇷
+screen_name: TheFlashsBunny
+useravatar: https://pbs.twimg.com/profile_images/1000406527050747906/jH53mB9i_bigger.jpg
+text: Thank you @EmpireConv  for giving me @JessicaLStroup  as my included autograph she's very nice and chatty! #HAC
+usrurl: https://twitter.com/TheFlashsBunny/status/1005748202585444352
+datetime: 2018-06-10 17:47:12
+is_reply: False
+is_retweet: False
+user_id: 273465039
+
+usernameTweet: BiComicShill
+ID: 1005632479846428673
+name: Bisexual Christopher
+screen_name: BiComicShill
+useravatar: https://pbs.twimg.com/profile_images/1006657360260190210/5uBrAZdT_bigger.jpg
+text: 1. Christopher
+2. Wally West
+3. Captain Cold when he was a bounty hunter
+4. Captain Cold when he's just a criminal
+5. DC
+6. Batman
+7. All of  Flashs  villains
+8. I love Linda Park
+9. Geoff Johns
+10. Scott Kolins
+11. Spider-Man 2
+12. Man Of Steel
+13. Suicide Squad
+14. Daredevil
+1/2  pic.twitter.com/CpSuOZpB55
+usrurl: https://twitter.com/BiComicShill/status/1005632479846428673
+datetime: 2018-06-10 10:07:21
+is_reply: False
+is_retweet: False
+user_id: 901862214482657281
+
+usernameTweet: SvenWagener
+ID: 1005029495622029312
+name: Sven Wagener
+screen_name: SvenWagener
+useravatar: https://pbs.twimg.com/profile_images/648509151363076097/ttktzSOf_bigger.jpg
+text: Booked the panorama wagon on my way back home from switzerland. So I can see the forecasted storm with it‘s  flashs  better!   #EC8  #Storm pic.twitter.com/aUK67XHbPF
+usrurl: https://twitter.com/SvenWagener/status/1005029495622029312
+datetime: 2018-06-08 18:11:18
+is_reply: False
+is_retweet: False
+user_id: 16128748
+
+usernameTweet: TheFlashsBunny
+ID: 1005028307019157504
+name: 🇫🇷 🐰☇Barry's Bunny☇🐰 🇫🇷
+screen_name: TheFlashsBunny
+useravatar: https://pbs.twimg.com/profile_images/1000406527050747906/jH53mB9i_bigger.jpg
+text: @ FACTSConvention  you HAVE TO get Benedict Cumberbatch please!! pic.twitter.com/K8iR3PddTi
+usrurl: https://twitter.com/TheFlashsBunny/status/1005028307019157504
+datetime: 2018-06-08 18:06:35
+is_reply: False
+is_retweet: False
+user_id: 273465039
+
+usernameTweet: itsnahh
+ID: 1004896658633711616
+name: nah. 🌸
+screen_name: itsnahh
+useravatar: https://pbs.twimg.com/profile_images/1006216075032215553/5afuowv3_bigger.jpg
+text: Love Will Remember III -  Flashs  - Do resto das nossas vidas. #wattpad https:// my.w.tt/Usdcxb3kzN  
+usrurl: https://twitter.com/itsnahh/status/1004896658633711616
+datetime: 2018-06-08 09:23:28
+medias: ['https://t.co/UnGkQU0o5A']
+is_reply: False
+is_retweet: False
+user_id: 961042754808709121
+
