@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b48e178-5230-49c6-a220-8c88e21b36f1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/travel/shenzhenair/shenzhenaircollect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tweet/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tweet/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tweet/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tweet/tweetspider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tweet/writelog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struts2/S2-032/s2032py3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struts2/S2-037/S2-037.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struts2/S2-037/s2037py3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struts2/S2-037/uns2037.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struts2/S2-045/uns2-045.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shensiwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shensiwork.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/facebookajax.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/facebookjs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailspider/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/mailspider/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailspider/tom/tomspider.py" beforeDir="false" afterPath="$PROJECT_DIR$/mailspider/tom/tomspider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,13 +25,16 @@
     <SUITE FILE_PATH="coverage/shensiwork$simulate_voxer.coverage" NAME="simulate_voxer Coverage Results" MODIFIED="1525418846417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
     <SUITE FILE_PATH="coverage/shensiwork$qqqiye.coverage" NAME="qqqiye Coverage Results" MODIFIED="1527497868936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
     <SUITE FILE_PATH="coverage/shensiwork$app.coverage" NAME="app Coverage Results" MODIFIED="1528700820014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mailspider" />
+    <SUITE FILE_PATH="coverage/shensiwork$s2037.coverage" NAME="s2037 Coverage Results" MODIFIED="1529402413233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-037" />
     <SUITE FILE_PATH="coverage/shensiwork$getip138info.coverage" NAME="getip138info Coverage Results" MODIFIED="1525919541631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
     <SUITE FILE_PATH="coverage/shensiwork$126.coverage" NAME="126 Coverage Results" MODIFIED="1527501221819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
     <SUITE FILE_PATH="coverage/shensiwork$tweetspider.coverage" NAME="tweetspider Coverage Results" MODIFIED="1528871270120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet" />
     <SUITE FILE_PATH="coverage/shensiwork$facebookapi.coverage" NAME="facebookapi Coverage Results" MODIFIED="1527213865174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
+    <SUITE FILE_PATH="coverage/shensiwork$s2037__1_.coverage" NAME="s2037 (1) Coverage Results" MODIFIED="1529550586567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-037" />
     <SUITE FILE_PATH="coverage/shensiwork$tom.coverage" NAME="tom Coverage Results" MODIFIED="1527819826240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
     <SUITE FILE_PATH="coverage/shensiwork$prcexception.coverage" NAME="prcexception Coverage Results" MODIFIED="1528102378031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
     <SUITE FILE_PATH="coverage/shensiwork$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1528876487493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet" />
+    <SUITE FILE_PATH="coverage/shensiwork$s2037py3.coverage" NAME="s2037py3 Coverage Results" MODIFIED="1529489259193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-037" />
     <SUITE FILE_PATH="coverage/shensiwork$qqmail.coverage" NAME="qqmail Coverage Results" MODIFIED="1527494099777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
     <SUITE FILE_PATH="coverage/shensiwork$qunar.coverage" NAME="qunar Coverage Results" MODIFIED="1527662961048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
     <SUITE FILE_PATH="coverage/shensiwork$elong.coverage" NAME="elong Coverage Results" MODIFIED="1527732113688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
@@ -56,12 +53,24 @@
     <SUITE FILE_PATH="coverage/shensiwork$baidupan.coverage" NAME="baidupan Coverage Results" MODIFIED="1527586848364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tweet/app.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="S2-037.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struts2/S2-037/S2-037.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-258">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="2592">
+              <caret line="96" column="25" lean-forward="true" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
+              <folding>
+                <element signature="e#18#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uns2-045.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/struts2/S2-045/uns2-045.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -130,6 +139,11 @@
         <option value="$PROJECT_DIR$/tweet/tweetspider.py" />
         <option value="$PROJECT_DIR$/tweet/writelog.py" />
         <option value="$PROJECT_DIR$/tweet/requirements.txt" />
+        <option value="$PROJECT_DIR$/struts2/S2-032/s2032.py" />
+        <option value="$PROJECT_DIR$/struts2/S2-037/s2037py3.py" />
+        <option value="$PROJECT_DIR$/struts2/S2-037/s2037.py" />
+        <option value="$PROJECT_DIR$/struts2/S2-037/S2-037.py" />
+        <option value="$PROJECT_DIR$/struts2/S2-045/uns2-045.py" />
       </list>
     </option>
   </component>
@@ -143,10 +157,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1460" />
-    <option name="height" value="886" />
+    <option name="x" value="229" />
+    <option name="y" value="86" />
+    <option name="width" value="1235" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -166,7 +180,19 @@
             <path>
               <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
               <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="tweet" type="462c0819:PsiDirectoryNode" />
+              <item name="struts2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
+              <item name="struts2" type="462c0819:PsiDirectoryNode" />
+              <item name="S2-037" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
+              <item name="struts2" type="462c0819:PsiDirectoryNode" />
+              <item name="S2-045" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
@@ -181,7 +207,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TweetScraper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -203,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.app (1)">
+  <component name="RunManager" selected="Python.s2037 (1)">
     <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,7 +249,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="s2037 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -231,18 +257,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mailspider" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/struts2/S2-037" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mailspider/app.py" />
+      <option name="SCRIPT_NAME" value="D:\gitcode\shensiwork\struts2\S2-037\uns2037.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="prcexception" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="s2037" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -250,18 +276,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prepareforwork" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/struts2/S2-037" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prepareforwork/prcexception.py" />
+      <option name="SCRIPT_NAME" value="D:\gitcode\shensiwork\struts2\S2-037\s2037py3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="tomspider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="s2037py3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,12 +295,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mailspider/tom" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/struts2/S2-037" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mailspider/tom/tomspider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/struts2/S2-037/s2037py3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,19 +326,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.tomspider" />
-      <item itemvalue="Python.prcexception" />
-      <item itemvalue="Python.app" />
       <item itemvalue="Python.tweetspider" />
       <item itemvalue="Python.app (1)" />
+      <item itemvalue="Python.s2037" />
+      <item itemvalue="Python.s2037 (1)" />
+      <item itemvalue="Python.s2037py3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s2037 (1)" />
+        <item itemvalue="Python.s2037py3" />
+        <item itemvalue="Python.s2037" />
         <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.tweetspider" />
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.tomspider" />
-        <item itemvalue="Python.prcexception" />
       </list>
     </recent_temporary>
   </component>
@@ -347,10 +373,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32971507" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32909605" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49857143" weight="0.44911805" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49857143" weight="0.40434194" />
       <window_info anchor="right" id="Mongo Explorer" order="3" weight="0.1504298" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21060172" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15902579" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -359,11 +385,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997114" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,41 +416,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/prepareforwork/simulate_voxer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepareforwork/someusefuldict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepareforwork/zoomeyeclass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepareforwork/simulate_voxer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/anaconda/envs/python36/Lib/site-packages/bs4/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="191" selection-start-line="191" selection-end-line="191" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simulatelogin/simulatelogin/simulatelogin/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
@@ -679,19 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="23" column="16" selection-end-line="28" />
-          <folding>
-            <element signature="e#56#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mailspider/tom/tomspider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="123" column="39" selection-start-line="123" selection-start-column="39" selection-end-line="123" selection-end-column="39" />
-          <folding>
-            <element signature="e#67#96#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -699,9 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="12" column="5" selection-end-line="92" selection-end-column="18" />
-          <folding>
-            <element signature="e#43#85#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -730,16 +705,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="e#56#71#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tweet/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-258">
+        <state relative-caret-position="27">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2/S2-032/s2032py3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mailspider/tom/tomspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2835">
+          <caret line="123" column="39" selection-start-line="123" selection-start-column="39" selection-end-line="123" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2/S2-037/s2037py3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2/S2-037/uns2037.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="37" selection-start-line="37" selection-end-line="44" selection-end-column="20" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2/S2-037/S2-037.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2592">
+          <caret line="96" column="25" lean-forward="true" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
+          <folding>
+            <element signature="e#18#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2/S2-045/uns2-045.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
