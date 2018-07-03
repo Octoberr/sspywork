@@ -77,8 +77,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="76" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
+            <state relative-caret-position="297">
+              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -169,8 +169,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="204" />
-    <option name="y" value="198" />
+    <option name="x" value="281" />
+    <option name="y" value="59" />
     <option name="width" value="1235" />
     <option name="height" value="821" />
   </component>
@@ -371,7 +371,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="204" y="198" width="1235" height="821" extended-state="0" />
+    <frame x="281" y="59" width="1235" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32700136" />
@@ -382,7 +382,7 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49857143" weight="0.5074627" />
       <window_info anchor="right" id="Mongo Explorer" order="3" weight="0.1504298" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2119149" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2119149" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.3293617" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -804,8 +804,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="76" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
+        <state relative-caret-position="297">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>
