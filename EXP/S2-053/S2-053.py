@@ -2,7 +2,7 @@
 import sys
 import re
 from urllib import quote
-from struts2.exp_template import Exploit, Level, session
+from EXP.exp_template import Exploit, Level, session
 
 from conf import config
 """

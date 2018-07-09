@@ -1,6 +1,6 @@
 # coding:utf-8
 import sys
-from struts2.exp_template import Exploit, Level, session
+from EXP.exp_template import Exploit, Level, session
 
 from conf import config
 """

