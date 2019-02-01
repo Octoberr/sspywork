@@ -27,7 +27,10 @@ class S2053(Exploit):
         return {
             'name': 'S2-053',
             'author': 'swm',
-            'date': '2018/07/03'
+            'date': '2018/07/03',
+            'args':{
+                "param":"poc参数"
+            }
         }
 
     def executecmd(self, command):

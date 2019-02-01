@@ -21,15 +21,15 @@ class MAIL:
     def getinlist(self):
         url = 'https://m.csair.com/touch/com.csair.mbp.index/index.html#com.csair.mbp.mytrip_new/orderList'
         payload = {
-            "aid":"",
-            "userId":"480005130044",
-            "depTime":"",
-            "arrTime":"",
-            "bookTimeFrom":"2018-04-30",
-            "bookTimeTo":"2018-05-31",
-            "status":"",
-            "orderno":"",
-            "period":30
+            "aid": "",
+            "userId": "480005130044",
+            "depTime": "",
+            "arrTime": "",
+            "bookTimeFrom": "2018-04-30",
+            "bookTimeTo": "2018-05-31",
+            "status": "",
+            "orderno": "",
+            "period": 30
         }
         # res = requests.post(url, headers=self.headers, data=payload)
         res = requests.get(url, headers=self.headers)

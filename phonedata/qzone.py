@@ -7,6 +7,7 @@ create by swm
 import requests
 import json
 
+
 class MAIL:
 
     def __init__(self):

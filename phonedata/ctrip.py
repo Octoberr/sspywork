@@ -24,16 +24,19 @@ class MAIL:
         # 获取个人订单的列表信息
         url = 'https://m.ctrip.com/restapi/soa2/10098/GetOrdersSearch.json?_fxpcqlniredt=09031067210419915485'
         formdata = {
-            "ClientVersion":"7.13",
-            "Channel":"H5",
-            "PageSize":'15',
-            "BizTypes":"Flight,PreSale,FlightX",
-            "OrderStatusClassify":"All",
-            "FilterValidOrder":'false',
-            "PageIndex":'1',
-            "sequence":"ccdacaeb-edeb-eb8e-79e8-152a5af01626",
-            "head":{"cid":"09031067210419915485","ctok":"","cver":"1.0","lang":"01","sid":"8888","syscode":"09","auth":'null',"extension":[{"name":"sequence","value":"ccdacaeb-edeb-eb8e-79e8-152a5af01626"},{"name":"protocal","value":"https"}]},
-            "contentType":"json"
+            "ClientVersion": "7.13",
+            "Channel": "H5",
+            "PageSize": '15',
+            "BizTypes": "Flight,PreSale,FlightX",
+            "OrderStatusClassify": "All",
+            "FilterValidOrder": 'false',
+            "PageIndex": '1',
+            "sequence": "ccdacaeb-edeb-eb8e-79e8-152a5af01626",
+            "head": {"cid": "09031067210419915485", "ctok": "", "cver": "1.0", "lang": "01", "sid": "8888",
+                     "syscode": "09", "auth": 'null',
+                     "extension": [{"name": "sequence", "value": "ccdacaeb-edeb-eb8e-79e8-152a5af01626"},
+                                   {"name": "protocal", "value": "https"}]},
+            "contentType": "json"
         }
         res = requests.post(url, headers=self.headers, data=formdata)
         resdict = json.loads(res.text)
