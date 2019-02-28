@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b48e178-5230-49c6-a220-8c88e21b36f1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deyang/anything.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deyang/baidutieba.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deyang/deyangjindian.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shensiwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shensiwork.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/housespider/deyang.py" beforeDir="false" afterPath="$PROJECT_DIR$/deyang/deyang.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/housespider/get_loc.py" beforeDir="false" afterPath="$PROJECT_DIR$/deyang/get_loc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +168,6 @@
         <option value="$PROJECT_DIR$/struts2/S2-053/__init__.py" />
         <option value="$PROJECT_DIR$/struts2/S2-053/conf.py" />
         <option value="$PROJECT_DIR$/struts2/S2-053/S2-053.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/struts2/tomcat/uncve.py" />
         <option value="$PROJECT_DIR$/EXP/tomcat/uncve.py" />
         <option value="$PROJECT_DIR$/EXP/tomcat/__init__.py" />
@@ -197,6 +188,7 @@
         <option value="$PROJECT_DIR$/deyang/deyangjindian.py" />
         <option value="$PROJECT_DIR$/deyang/baidutieba.py" />
         <option value="$PROJECT_DIR$/deyang/anything.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -411,12 +403,12 @@
       <workItem from="1550458575094" duration="609000" />
       <workItem from="1551057653023" duration="2466000" />
       <workItem from="1551063955021" duration="9256000" />
-      <workItem from="1551259786139" duration="1434000" />
+      <workItem from="1551259786139" duration="1654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44783000" />
+    <option name="totallyTimeSpent" value="45003000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,7 +420,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15687679" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -624,13 +617,6 @@
           <folding>
             <element signature="e#81#96#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -847,16 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deyang/deyangjindian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-783">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deyang/anything.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -868,6 +844,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2565">
           <caret line="101" column="47" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="353">
+            <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deyang/deyangjindian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-783">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="65" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

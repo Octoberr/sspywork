@@ -34,6 +34,11 @@ tom邮箱的爬虫，能够下载收件箱邮件保存为eml格式，获取联�
 通过tweet搜索爬取tweet的基本信息(文本，头像，图片，连接)  
 主要使用scrapy的selector解析html
 
+### [百度贴吧爬虫](./deyang/baidutieba.py)
+
+终于解决了同时爬取帖子楼层和楼层评论的问题，并且对requests.session()的
+cookie更新机制有了更深的认识，deyang文件夹下还有些爬虫，对beautifulsoup的使用有了新的理解
+
 # imgtest
 Images:
 
