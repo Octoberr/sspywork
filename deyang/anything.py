@@ -1,4 +1,9 @@
+# import redis
+#
+# r = redis.Redis(host='127.0.0.1', port=8888, db=0)
+# r.set('name', 'swm')
+# print(r.get('name'))
+import requests
 
-a = ['a', 'b']
-b = 'abc'
-c = lambda a, b: True if e for e in a in b else False
+a = requests.get("http://127.0.0.1:5010/get/")
+print(a.text)
