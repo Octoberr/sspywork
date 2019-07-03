@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import hashlib
 import json
 
-from prepareforwork.someusefuldict import MONGO
+# from prepareforwork.someusefuldict import MONGO
 
 
 startUrl = 'http://www.ip138.com/yuming/'
@@ -23,8 +23,9 @@ onetomore = {}
 def trans(strword):
     transurl = 'http://openapi.youdao.com/api'
     q = strword
-    froml = 'zh-CHS'
-    tol = 'EN'
+    froml = 'EN'
+    tol = 'zh-CHS'
+    # tol = 'EN'
     appKey = '4f894c1343f1f594'
     salt = '7'
     key = 'VF3AJLNUY28LGdMyEclG2HDqBo991htK'
@@ -34,7 +35,8 @@ def trans(strword):
     allurlinfo = transurl+'?'+'q='+q+'&from='+froml+'&to='+tol+'&appKey='+appKey+'&salt='+salt+'&sign='+sign
     data = requests.get(allurlinfo)
     jsondata = json.loads(data.text)
-    return jsondata['translation'][0]
+    # return jsondata['translation'][0]
+    return jsondata
 
 
 def getinfo():
@@ -102,8 +104,10 @@ def storagedomainname():
 
 
 if __name__ == '__main__':
-    soup = getinfo()
-    proces1(soup)
-    process2(soup)
-    process3(soup)
-    storagedomainname()
+    # soup = getinfo()
+    # proces1(soup)
+    # process2(soup)
+    # process3(soup)
+    # storagedomainname()
+    a = trans('Trenton (Cadwalader & Hillcrest)')
+    print(a)

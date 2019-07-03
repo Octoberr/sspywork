@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b48e178-5230-49c6-a220-8c88e21b36f1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/activatepycharm/activatecode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/captcha/qunacaptcha.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/captcha/rec_quna.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/captcha/renamecaptcha.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deyang/ipproxy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tweet/twitterspiderinfo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shensiwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shensiwork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contrast/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contrast/contool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youdaotrans/translation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deyang/anything.py" beforeDir="false" afterPath="$PROJECT_DIR$/deyang/anything.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareforwork/getip138info.py" beforeDir="false" afterPath="$PROJECT_DIR$/prepareforwork/getip138info.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +22,8 @@
     <SUITE FILE_PATH="coverage/shensiwork$activatecode.coverage" NAME="activatecode Coverage Results" MODIFIED="1554966790699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/activatepycharm" />
     <SUITE FILE_PATH="coverage/shensiwork$tweetspider.coverage" NAME="tweetspider Coverage Results" MODIFIED="1528871270120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet" />
     <SUITE FILE_PATH="coverage/shensiwork$S2_devmode.coverage" NAME="S2-devmode Coverage Results" MODIFIED="1530583728531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-devmode" />
-    <SUITE FILE_PATH="coverage/shensiwork$getip138info.coverage" NAME="getip138info Coverage Results" MODIFIED="1525919541631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
     <SUITE FILE_PATH="coverage/shensiwork$S2032.coverage" NAME="S2032 Coverage Results" MODIFIED="1530583492245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-032" />
+    <SUITE FILE_PATH="coverage/shensiwork$getip138info.coverage" NAME="getip138info Coverage Results" MODIFIED="1562049104746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
     <SUITE FILE_PATH="coverage/shensiwork$uns2_045.coverage" NAME="uns2-045 Coverage Results" MODIFIED="1529997984637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-045" />
     <SUITE FILE_PATH="coverage/shensiwork$S2016.coverage" NAME="S2016 Coverage Results" MODIFIED="1530778941666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXP/S2-016" />
     <SUITE FILE_PATH="coverage/shensiwork$uns2_048.coverage" NAME="uns2-048 Coverage Results" MODIFIED="1530064390111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-048" />
@@ -38,6 +33,7 @@
     <SUITE FILE_PATH="coverage/shensiwork$uns2037.coverage" NAME="uns2037 Coverage Results" MODIFIED="1529998390101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-037" />
     <SUITE FILE_PATH="coverage/shensiwork$prcexception.coverage" NAME="prcexception Coverage Results" MODIFIED="1528102378031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
     <SUITE FILE_PATH="coverage/shensiwork$S2_037.coverage" NAME="S2-037 Coverage Results" MODIFIED="1530583139871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-037" />
+    <SUITE FILE_PATH="coverage/shensiwork$translation.coverage" NAME="translation Coverage Results" MODIFIED="1562115641153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youdaotrans" />
     <SUITE FILE_PATH="coverage/shensiwork$unS2_052.coverage" NAME="unS2-052 Coverage Results" MODIFIED="1530067523687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-052" />
     <SUITE FILE_PATH="coverage/shensiwork$qqmail.coverage" NAME="qqmail Coverage Results" MODIFIED="1527494099777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
     <SUITE FILE_PATH="coverage/shensiwork$shenzhen.coverage" NAME="shenzhen Coverage Results" MODIFIED="1527734045034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
@@ -58,6 +54,7 @@
     <SUITE FILE_PATH="coverage/shensiwork$baidupan.coverage" NAME="baidupan Coverage Results" MODIFIED="1527586848364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
     <SUITE FILE_PATH="coverage/shensiwork$s2037py3.coverage" NAME="s2037py3 Coverage Results" MODIFIED="1529489259193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-037" />
     <SUITE FILE_PATH="coverage/shensiwork$s2037.coverage" NAME="s2037 Coverage Results" MODIFIED="1529402413233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-037" />
+    <SUITE FILE_PATH="coverage/shensiwork$contool.coverage" NAME="contool Coverage Results" MODIFIED="1562138705446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/contrast" />
     <SUITE FILE_PATH="coverage/shensiwork$flaskuploadfile.coverage" NAME="flaskuploadfile Coverage Results" MODIFIED="1529891798951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskdownload" />
     <SUITE FILE_PATH="coverage/shensiwork$uncve1273.coverage" NAME="uncve1273 Coverage Results" MODIFIED="1530690868049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXP/CVE-1273" />
     <SUITE FILE_PATH="coverage/shensiwork$app.coverage" NAME="app Coverage Results" MODIFIED="1528700820014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mailspider" />
@@ -99,24 +96,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tweet/twitterspiderinfo.py">
+        <entry file="file://$PROJECT_DIR$/contrast/contool.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+            <state relative-caret-position="32">
+              <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
               <folding>
-                <element signature="e#46#101#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deyang/deyangjindian.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="136" column="8" selection-start-line="136" selection-start-column="8" selection-end-line="136" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#62#71#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,6 +123,7 @@
       <find>print</find>
       <find>BeautifulSoup</find>
       <find>user-actions btn-group not-following not-muting</find>
+      <find>translation</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,11 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/struts2/S2-045/uns2-045.py" />
-        <option value="$PROJECT_DIR$/struts2/S2-037/uns2037.py" />
-        <option value="$PROJECT_DIR$/struts2/S2-048/uns2-048.py" />
-        <option value="$PROJECT_DIR$/struts2/S2-052/unS2-052.py" />
-        <option value="$PROJECT_DIR$/struts2/S2-053/uns2053.py" />
         <option value="$PROJECT_DIR$/struts2/S2-devmode/unS2-devmode.py" />
         <option value="$PROJECT_DIR$/struts2/S2-032/file.py" />
         <option value="$PROJECT_DIR$/struts2/exp/exp_template.py" />
@@ -197,14 +178,18 @@
         <option value="$USER_HOME$/Desktop/PythonHTTP调用示例/YDMHTTPDemo3.x.py" />
         <option value="$PROJECT_DIR$/captcha/rec_quna.py" />
         <option value="$PROJECT_DIR$/tweet/twitterspiderinfo.py" />
+        <option value="$PROJECT_DIR$/prepareforwork/getip138info.py" />
+        <option value="$PROJECT_DIR$/contrast/__init__.py" />
+        <option value="$PROJECT_DIR$/youdaotrans/translation.py" />
+        <option value="$PROJECT_DIR$/contrast/_input/t2.csv" />
+        <option value="$PROJECT_DIR$/contrast/contool.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="759" />
-    <option name="y" value="93" />
-    <option name="width" value="1040" />
-    <option name="height" value="604" />
+    <option name="x" value="300" />
+    <option name="width" value="1888" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -214,7 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,7 +209,12 @@
             <path>
               <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
               <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="tweet" type="462c0819:PsiDirectoryNode" />
+              <item name="contrast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
+              <item name="youdaotrans" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
@@ -235,25 +224,27 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../linuxdatacollect-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gitcode\shensiwork\struts2\S2-devmode" />
+      <recent name="D:\gitcode\shensiwork\struts2\S2-037" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gitcode\shensiwork\contrast\_input" />
       <recent name="D:\gitcode\shensiwork\captcha" />
       <recent name="D:\gitcode\shensiwork\struts2" />
       <recent name="D:\gitcode\shensiwork\struts2\exp" />
       <recent name="D:\gitcode\shensiwork\simulatelogin\simulatelogin" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\gitcode\shensiwork\struts2\S2-devmode" />
-      <recent name="D:\gitcode\shensiwork\struts2\S2-037" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -268,8 +259,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.twitterspiderinfo">
-    <configuration name="activatecode" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.contool">
+    <configuration name="contool" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,12 +268,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/activatepycharm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/contrast" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/activatepycharm/activatecode.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/contrast/contool.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,7 +282,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="qunacaptcha" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="getip138info" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -299,12 +290,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/captcha" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prepareforwork" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/captcha/qunacaptcha.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prepareforwork/getip138info.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,7 +326,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="renamecaptcha" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="translation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -343,12 +334,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/captcha" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/youdaotrans" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/captcha/renamecaptcha.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/youdaotrans/translation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -380,19 +371,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.qunacaptcha" />
-      <item itemvalue="Python.activatecode" />
       <item itemvalue="Python.rec_quna" />
-      <item itemvalue="Python.renamecaptcha" />
       <item itemvalue="Python.twitterspiderinfo" />
+      <item itemvalue="Python.translation" />
+      <item itemvalue="Python.getip138info" />
+      <item itemvalue="Python.contool" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.contool" />
+        <item itemvalue="Python.translation" />
+        <item itemvalue="Python.getip138info" />
         <item itemvalue="Python.twitterspiderinfo" />
         <item itemvalue="Python.rec_quna" />
-        <item itemvalue="Python.qunacaptcha" />
-        <item itemvalue="Python.renamecaptcha" />
-        <item itemvalue="Python.activatecode" />
       </list>
     </recent_temporary>
   </component>
@@ -434,12 +425,13 @@
       <workItem from="1561795441980" duration="1710000" />
       <workItem from="1561943987785" duration="5243000" />
       <workItem from="1561968604926" duration="257000" />
-      <workItem from="1561969301751" duration="4016000" />
+      <workItem from="1561969301751" duration="4027000" />
+      <workItem from="1562032044346" duration="33513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94071000" />
+    <option name="totallyTimeSpent" value="127595000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,7 +443,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17621776" />
@@ -459,8 +451,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49857143" weight="0.42991912" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41913748" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49857143" weight="0.47439352" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38409704" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32700136" />
@@ -523,6 +515,16 @@
           <line>53</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/contrast/contool.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/contrast/contool.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -576,95 +578,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EXP/CVE-0846/uncve0846.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXP/CVE-1273/uncve1273.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXP/S2-029.py" />
-    <entry file="file://$PROJECT_DIR$/EXP/S2-032/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXP/S2-032/S2032.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2133">
-          <caret line="79" column="43" lean-forward="true" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXP/S2-029/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXP/S2-037/S2-037.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="93" column="45" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXP/S2-045/S2-045.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="72" selection-start-line="72" selection-end-line="75" selection-end-column="18" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXP/S2-053/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXP/S2-053/S2-053.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-720">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXP/S2-019/uns2-019.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXP/S2-029/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="31" selection-end-line="3" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EXP/S2-016/S2016.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -740,9 +653,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flaskdownload/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tweet/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -841,16 +751,6 @@
     <entry file="file://$PROJECT_DIR$/prepareforwork/prcexception.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/prepareforwork/getip138info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#33#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prepareforwork/simulate_voxer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -868,14 +768,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prepareforwork/zoomeyeclass.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/downloadlink/vpntest.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/downloadlink/download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-307" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deyang/deyang.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -913,7 +805,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deyang/deyangjindian.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="3672">
           <caret line="136" column="8" selection-start-line="136" selection-start-column="8" selection-end-line="136" selection-end-column="8" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -921,12 +813,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flaskdownload/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXP/feixun_fwr604h.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2751" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloadlink/vpntest.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloadlink/download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <folding>
+            <element signature="e#36#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facebook/facebook/spiders/crawlfacebook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facebook/facebookajax.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facebook/facebookjs.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepareforwork/getip138info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="111" column="48" selection-start-line="111" selection-start-column="48" selection-end-line="111" selection-end-column="48" />
+          <folding>
+            <element signature="e#33#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrast/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/tweet/twitterspiderinfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        <state relative-caret-position="260">
+          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
           <folding>
             <element signature="e#46#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youdaotrans/translation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="199" column="38" selection-start-line="199" selection-start-column="38" selection-end-line="199" selection-end-column="38" />
+          <folding>
+            <element signature="e#47#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/anaconda/envs/python37/Lib/pathlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="1243" column="55" selection-start-line="1243" selection-start-column="47" selection-end-line="1243" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/anaconda/envs/python37/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="1500" column="8" selection-start-line="1500" selection-start-column="8" selection-end-line="1500" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrast/_input/t2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrast/_input/t1.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrast/_output/t1t2.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrast/contool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+          <folding>
+            <element signature="e#62#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
