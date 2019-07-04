@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b48e178-5230-49c6-a220-8c88e21b36f1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/contrast/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contrast/contool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youdaotrans/translation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepareforwork/getip138info.py" beforeDir="false" afterPath="$PROJECT_DIR$/prepareforwork/getip138info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrast/contool.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrast/contool.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,7 @@
     <SUITE FILE_PATH="coverage/shensiwork$baidupan.coverage" NAME="baidupan Coverage Results" MODIFIED="1527586848364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
     <SUITE FILE_PATH="coverage/shensiwork$s2037py3.coverage" NAME="s2037py3 Coverage Results" MODIFIED="1529489259193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-037" />
     <SUITE FILE_PATH="coverage/shensiwork$s2037.coverage" NAME="s2037 Coverage Results" MODIFIED="1529402413233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-037" />
-    <SUITE FILE_PATH="coverage/shensiwork$contool.coverage" NAME="contool Coverage Results" MODIFIED="1562138705446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/contrast" />
+    <SUITE FILE_PATH="coverage/shensiwork$contool.coverage" NAME="contool Coverage Results" MODIFIED="1562144180401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/contrast" />
     <SUITE FILE_PATH="coverage/shensiwork$flaskuploadfile.coverage" NAME="flaskuploadfile Coverage Results" MODIFIED="1529891798951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskdownload" />
     <SUITE FILE_PATH="coverage/shensiwork$uncve1273.coverage" NAME="uncve1273 Coverage Results" MODIFIED="1530690868049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXP/CVE-1273" />
     <SUITE FILE_PATH="coverage/shensiwork$app.coverage" NAME="app Coverage Results" MODIFIED="1528700820014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mailspider" />
@@ -66,6 +66,7 @@
     <SUITE FILE_PATH="coverage/shensiwork$unS2_devmode.coverage" NAME="unS2-devmode Coverage Results" MODIFIED="1530155848960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-devmode" />
     <SUITE FILE_PATH="coverage/shensiwork$uncve.coverage" NAME="uncve Coverage Results" MODIFIED="1530667357885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXP/tomcat" />
     <SUITE FILE_PATH="coverage/shensiwork$renamecaptcha.coverage" NAME="renamecaptcha Coverage Results" MODIFIED="1555051737268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/captcha" />
+    <SUITE FILE_PATH="coverage/shensiwork$jianlai.coverage" NAME="jianlai Coverage Results" MODIFIED="1562211731510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader/jianlai" />
     <SUITE FILE_PATH="coverage/shensiwork$ctrip.coverage" NAME="ctrip Coverage Results" MODIFIED="1527670068358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
     <SUITE FILE_PATH="coverage/shensiwork$quickstart.coverage" NAME="quickstart Coverage Results" MODIFIED="1525417332228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simulatelogin" />
     <SUITE FILE_PATH="coverage/shensiwork$139.coverage" NAME="139 Coverage Results" MODIFIED="1527561170777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
@@ -95,14 +96,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/contrast/contool.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+            <state relative-caret-position="78">
+              <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
               <folding>
-                <element signature="e#62#71#0" expanded="true" />
+                <element signature="e#44#55#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="380">
+                <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -132,8 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/struts2/S2-devmode/unS2-devmode.py" />
-        <option value="$PROJECT_DIR$/struts2/S2-032/file.py" />
         <option value="$PROJECT_DIR$/struts2/exp/exp_template.py" />
         <option value="$PROJECT_DIR$/struts2/exp/__init__.py" />
         <option value="$PROJECT_DIR$/struts2/__init__.py" />
@@ -168,7 +179,6 @@
         <option value="$PROJECT_DIR$/EXP/S2-016/uns2016.py" />
         <option value="$PROJECT_DIR$/deyang/deyangjindian.py" />
         <option value="$PROJECT_DIR$/deyang/baidutieba.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/deyang/anything.py" />
         <option value="$PROJECT_DIR$/deyang/ipproxy.py" />
         <option value="$PROJECT_DIR$/captcahspider.py" />
@@ -183,13 +193,17 @@
         <option value="$PROJECT_DIR$/youdaotrans/translation.py" />
         <option value="$PROJECT_DIR$/contrast/_input/t2.csv" />
         <option value="$PROJECT_DIR$/contrast/contool.py" />
+        <option value="$PROJECT_DIR$/noveldownloader/jianlai/jianlaidownload.txt" />
+        <option value="$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="300" />
-    <option name="width" value="1888" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="443" />
+    <option name="y" value="80" />
+    <option name="width" value="1069" />
+    <option name="height" value="604" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -199,6 +213,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,12 +224,13 @@
             <path>
               <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
               <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="contrast" type="462c0819:PsiDirectoryNode" />
+              <item name="noveldownloader" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
               <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="youdaotrans" type="462c0819:PsiDirectoryNode" />
+              <item name="noveldownloader" type="462c0819:PsiDirectoryNode" />
+              <item name="jianlai" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
@@ -224,27 +240,27 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../linuxdatacollect-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\gitcode\shensiwork\struts2\S2-devmode" />
-      <recent name="D:\gitcode\shensiwork\struts2\S2-037" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\gitcode\shensiwork\contrast\_input" />
       <recent name="D:\gitcode\shensiwork\captcha" />
       <recent name="D:\gitcode\shensiwork\struts2" />
       <recent name="D:\gitcode\shensiwork\struts2\exp" />
       <recent name="D:\gitcode\shensiwork\simulatelogin\simulatelogin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gitcode\shensiwork\noveldownloader\jianlai" />
+      <recent name="D:\gitcode\shensiwork\struts2\S2-devmode" />
+      <recent name="D:\gitcode\shensiwork\struts2\S2-037" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -259,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.contool">
+  <component name="RunManager" selected="Python.jianlai">
     <configuration name="contool" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -304,7 +320,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rec_quna" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="jianlai" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,12 +328,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/captcha" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/noveldownloader/jianlai" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/captcha/rec_quna.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -371,19 +387,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.rec_quna" />
       <item itemvalue="Python.twitterspiderinfo" />
       <item itemvalue="Python.translation" />
       <item itemvalue="Python.getip138info" />
       <item itemvalue="Python.contool" />
+      <item itemvalue="Python.jianlai" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jianlai" />
         <item itemvalue="Python.contool" />
         <item itemvalue="Python.translation" />
         <item itemvalue="Python.getip138info" />
         <item itemvalue="Python.twitterspiderinfo" />
-        <item itemvalue="Python.rec_quna" />
       </list>
     </recent_temporary>
   </component>
@@ -426,12 +442,13 @@
       <workItem from="1561943987785" duration="5243000" />
       <workItem from="1561968604926" duration="257000" />
       <workItem from="1561969301751" duration="4027000" />
-      <workItem from="1562032044346" duration="33513000" />
+      <workItem from="1562032044346" duration="36411000" />
+      <workItem from="1562206389865" duration="5619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127595000" />
+    <option name="totallyTimeSpent" value="136112000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -446,13 +463,13 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17621776" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17621776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49857143" weight="0.47439352" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38409704" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49857143" weight="0.77088946" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5269542" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32700136" />
@@ -517,19 +534,46 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/contrast/contool.py</url>
-          <line>126</line>
+          <line>127</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/contrast/contool.py</url>
-          <line>96</line>
+          <line>97</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>content</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>title_info</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>title_info[3:-4]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>soup.find_all('div', attrs={'class': 'user-actions btn-group not-following not-muting'})</expression-string>
         <language-id>Python</language-id>
@@ -560,76 +604,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>all_divs[0]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>soup.find_all('div', attrs={'class': 'ProfileCard js-actionable-user'})</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>len(name_info)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EXP/S2-016/S2016.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXP/tomcat/CVE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
-          <folding>
-            <element signature="e#15#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXP/S2-016/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXP/S2-016/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXP/S2-016/uns2016.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXP/S2-029/S2029.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deyang/金雁湖/金雁湖.csv" />
-    <entry file="file://D:/anaconda/envs/python36/Lib/http/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="1206" selection-start-line="1206" selection-end-line="1206" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/anaconda/envs/python36/Lib/site-packages/commonbaby/httpaccess/httpaccess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -668,21 +645,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/Python调用示例/YDMPython3.x.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="638">
-            <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/PythonHTTP调用示例/YDMHTTPDemo2.x.py" />
     <entry file="file://$USER_HOME$/Desktop/PythonHTTP调用示例/YDMHTTPDemo3.x.py" />
     <entry file="file://$PROJECT_DIR$/captcha/qunacaptcha.py">
@@ -895,26 +857,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contrast/_input/t2.csv">
+    <entry file="file://$PROJECT_DIR$/contrast/_input/t2.csv" />
+    <entry file="file://$PROJECT_DIR$/contrast/_input/t1.csv" />
+    <entry file="file://$PROJECT_DIR$/contrast/_output/t1t2.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrast/_origin/t1.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="297">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contrast/_input/t1.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contrast/_output/t1t2.csv">
+    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/contrast/contool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+        <state relative-caret-position="-648">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/anaconda/envs/python37/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="339" selection-start-line="339" selection-end-line="339" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/jianlaidownload.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/jianlai.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/anaconda/envs/python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
           <folding>
-            <element signature="e#62#71#0" expanded="true" />
+            <element signature="e#44#55#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="380">
+            <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

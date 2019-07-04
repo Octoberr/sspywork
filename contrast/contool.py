@@ -83,8 +83,9 @@ class Contool(object):
             outname = f'{name1.split(".")[0] + name2.split(".")[0]}.csv'
             outpath: Path = self.outputfile / outname
             fp = outpath.open('a+', newline='', encoding='utf-8')
-            writer = csv.writer(fp)
-            writer.writerows(res)
+            fp.writelines(res)
+            # writer = csv.writer(fp)
+            # writer.writerows(res)
             fp.close()
         return
 
@@ -149,6 +150,14 @@ class Contool(object):
 
 
 if __name__ == '__main__':
-    con = Contool()
+    # con = Contool()
     # con.scan_dir()
-    con.start()
+    # con.start()
+    file = r"D:\gitcode\shensiwork\contrast\_origin\t1.csv"
+    fp = open(file, 'r', encoding='utf-8')
+    fp.seek(4)
+    while True:
+        a = fp.readline()
+        print(a.strip())
+        if a == '':
+            break
