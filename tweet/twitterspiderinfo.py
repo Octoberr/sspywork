@@ -39,15 +39,16 @@ user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         pass
 
     def search(self):
-        url = "https://twitter.com/search?f=users&q=porn&src=typd"
+        url = "https://twitter.com/GEMoving"
 
         headers = '''
-accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+        accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
 accept-encoding: gzip, deflate, br
 accept-language: zh-CN,zh;q=0.9,en;q=0.8
 cache-control: no-cache
+cookie: guest_id=v1%3A155921858819307425; _ga=GA1.2.999014813.1559218592; tfw_exp=0; kdt=0XTnTydp2g3vpbnSflAWv3kKb1zxBLeoftN3fQgd; remember_checked_on=0; csrf_same_site_set=1; csrf_same_site=1; personalization_id="v1_bHstwWEgjYsaq0IVqrj60Q=="; external_referer=padhuUp37zjgzgv1mFWxJ12Ozwit7owX|0|8e8t2xd8A2w%3D; ads_prefs="HBERAAA="; ct0=4fc617a6fb32b387a3d51da28a37910f; _gid=GA1.2.84942800.1562234004; twid="u=998911451833163777"; auth_token=f75059e44a60f7e68d723ded8571c6938c50c23b; _twitter_sess=BAh7CiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCKsZZ7xrAToMY3NyZl9p%250AZCIlNjAzZjE0NTU0ZjM1NWZlNjZhMmU1YWIyZDEzMzUxOTg6B2lkIiUxODU2%250AZWRhNWM0NjNhNzAyODM3YjJiMTFkNjlmOGY3NzoJdXNlcmwrCQHglUis2NwN--ba48cd0cf7d091fda283e2eb1f9e75fb2d4cd73c; lang=en; _gat=1
 pragma: no-cache
-referer: https://twitter.com/login
+referer: https://twitter.com/search?q=%E9%82%93%E7%B4%AB%E6%A3%8B&src=typd
 upgrade-insecure-requests: 1
 user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
         '''
@@ -55,6 +56,8 @@ user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         soup = BeautifulSoup(restring, 'lxml')
         all_divs = soup.find_all('div', attrs={'class': 'user-actions btn-group not-following not-muting '})
         pass
+
+
 
 
 
