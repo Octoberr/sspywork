@@ -14,10 +14,11 @@ from bs4 import BeautifulSoup
 
 
 class Novel(object):
+    namel = 'novel'
 
     def __init__(self):
         self.ha = requests.session()
-        self.cookie = '_abcde_qweasd=0; _abcde_qweasd=0; Hm_lvt_169609146ffe5972484b0957bd1b46d6=1562310935; BAIDU_SSP_lcr=https://www.baidu.com/link?url=6TtC5LGO1EKy75CrAXLzoWvDF23zq1goWuX-T3SPla7&wd=&eqid=926398c9000555aa000000025d1ef910; bdshare_firstime=1562310934656; Hm_lpvt_169609146ffe5972484b0957bd1b46d6=1562310972'
+        self.cookie = 'Hm_lvt_d3e5f4edf98e3ec0ced6fc2c39b60bae=1562212519,1562220269,1562221139,1562567247; Hm_lpvt_d3e5f4edf98e3ec0ced6fc2c39b60bae=1562729794; jieqiVisitId=article_articleviews%3D46840'
         self.links = []
         self.downloaded = self.get_downloaded()
 

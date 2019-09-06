@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d0f06b-7885-4899-a38d-4f4a9c52bbbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jetbraincrack/crack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/noveldownloader/biquge/novel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/noveldownloader/jianke/jianke.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/noveldownloader/qinyunian/qinyunian.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/noveldownloader/sometest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mongoSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shensiwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shensiwork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbipparse/dbipparse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbipparse/owtest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskdownload/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskdownload/flaskstart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noveldownloader/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noveldownloader/biquge/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweet/seleniumlogin/tweetlogin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activatepycharm/activatecode.py" beforeDir="false" afterPath="$PROJECT_DIR$/activatepycharm/activatecode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrast/_origin/t1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrast/_origin/t2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrast/_output/t1t2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py" beforeDir="false" afterPath="$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/noveldownloader/jianlai/jianlaidownload.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweet/twitterspiderinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweet/twitterspiderinfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noveldownloader/biquge/novel.py" beforeDir="false" afterPath="$PROJECT_DIR$/noveldownloader/biquge/novel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noveldownloader/sometest.py" beforeDir="false" afterPath="$PROJECT_DIR$/noveldownloader/sometest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweet/tweetspider.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweet/tweetspider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,202 +20,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-              <folding>
-                <element signature="e#44#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jetbraincrack/crack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1053" />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="541" />
-    <option name="y" value="158" />
-    <option name="width" value="1040" />
-    <option name="height" value="604" />
-  </component>
+  <component name="ProjectId" id="1Ol3i7BIV1trSek1rLxH2QE9YP5" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="activatepycharm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="captcha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="contrast" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="deyang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="downloadlink" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="EXP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="facebook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="flaskdownload" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="imgfloder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="jetbraincrack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="mailspider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="noveldownloader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="noveldownloader" type="462c0819:PsiDirectoryNode" />
-              <item name="biquge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="noveldownloader" type="462c0819:PsiDirectoryNode" />
-              <item name="jianke" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="noveldownloader" type="462c0819:PsiDirectoryNode" />
-              <item name="jianlai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="noveldownloader" type="462c0819:PsiDirectoryNode" />
-              <item name="qinyunian" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="phonedata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="phoneprice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="prepareforwork" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="shellarginput" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="simulatelogin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="travel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="travel" type="462c0819:PsiDirectoryNode" />
-              <item name="shenzhenair" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="tweet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="youdaotrans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -230,6 +43,13 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gitcode\shensiwork\dbipparse" />
+      <recent name="D:\gitcode\shensiwork\noveldownloader\biquge" />
+      <recent name="D:\gitcode\shensiwork\noveldownloader" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -243,8 +63,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="jianlai" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.dbipparse">
+    <configuration name="dbipparse" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,12 +72,100 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/noveldownloader/jianlai" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dbipparse" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dbipparse/dbipparse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="flaskstart" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="shensiwork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flaskdownload" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flaskdownload/flaskstart.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="owtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="shensiwork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dbipparse" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dbipparse/owtest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tweetlogin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="shensiwork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tweet/seleniumlogin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tweet/seleniumlogin/tweetlogin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tweetspider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="shensiwork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tweet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tweet/tweetspider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,7 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.jianlai" />
+        <item itemvalue="Python.dbipparse" />
+        <item itemvalue="Python.owtest" />
+        <item itemvalue="Python.flaskstart" />
+        <item itemvalue="Python.tweetlogin" />
+        <item itemvalue="Python.tweetspider" />
       </list>
     </recent_temporary>
   </component>
@@ -282,68 +194,72 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562570215459</updated>
-      <workItem from="1562570222127" duration="1675000" />
+      <workItem from="1562570222127" duration="1832000" />
+      <workItem from="1562729746507" duration="2535000" />
+      <workItem from="1562750363048" duration="3251000" />
+      <workItem from="1562807511710" duration="38000" />
+      <workItem from="1564538481810" duration="200000" />
+      <workItem from="1564539816688" duration="80000" />
+      <workItem from="1564650605860" duration="4770000" />
+      <workItem from="1565245989427" duration="4784000" />
+      <workItem from="1565855761904" duration="848000" />
+      <workItem from="1566455025145" duration="2192000" />
+      <workItem from="1566871122346" duration="3674000" />
+      <workItem from="1566959931863" duration="3933000" />
+      <workItem from="1567042478552" duration="1192000" />
+      <workItem from="1567733248963" duration="682000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1675000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1448" height="868" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32884097" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/shensiwork$jianlai.coverage" NAME="jianlai Coverage Results" MODIFIED="1562570324658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader/jianlai" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jetbraincrack/crack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1053" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-          <folding>
-            <element signature="e#44#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/noveldownloader/sometest.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/noveldownloader/sometest.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/shensiwork$tweetspider.coverage" NAME="tweetspider Coverage Results" MODIFIED="1564538528084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet" />
+    <SUITE FILE_PATH="coverage/shensiwork$owtest.coverage" NAME="owtest Coverage Results" MODIFIED="1566873966414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbipparse" />
+    <SUITE FILE_PATH="coverage/shensiwork$tweetlogin.coverage" NAME="tweetlogin Coverage Results" MODIFIED="1564653697315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet/seleniumlogin" />
+    <SUITE FILE_PATH="coverage/shensiwork$novel.coverage" NAME="novel Coverage Results" MODIFIED="1562729827848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader/biquge" />
+    <SUITE FILE_PATH="coverage/shensiwork$dbipparse.coverage" NAME="dbipparse Coverage Results" MODIFIED="1566982078523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbipparse" />
+    <SUITE FILE_PATH="coverage/shensiwork$jianlai.coverage" NAME="jianlai Coverage Results" MODIFIED="1562570324658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader/jianlai" />
+    <SUITE FILE_PATH="coverage/shensiwork$sometest.coverage" NAME="sometest Coverage Results" MODIFIED="1562753273150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader" />
+    <SUITE FILE_PATH="coverage/shensiwork$flaskstart.coverage" NAME="flaskstart Coverage Results" MODIFIED="1565253519545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskdownload" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>inspect.getmembers('./biquge')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
 </project>

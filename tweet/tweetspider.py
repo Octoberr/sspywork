@@ -187,9 +187,9 @@ class TWEET:
         return True
 
 #
-# if __name__ == '__main__':
-#     t = TWEET('flash')
-#     t.startapp()
+if __name__ == '__main__':
+    t = TWEET('flash')
+    t.startapp()
 
 
 
