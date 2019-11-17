@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b48e178-5230-49c6-a220-8c88e21b36f1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asyncio/asynciolearn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnpython/fib.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrast/contool.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrast/contool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py" beforeDir="false" afterPath="$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noveldownloader/jianlai/jianlaidownload.txt" beforeDir="false" afterPath="$PROJECT_DIR$/noveldownloader/jianlai/jianlaidownload.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +16,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/shensiwork$qzone.coverage" NAME="qzone Coverage Results" MODIFIED="1527651137466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
+    <SUITE FILE_PATH="coverage/shensiwork$fib.coverage" NAME="fib Coverage Results" MODIFIED="1570623235269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnpython" />
     <SUITE FILE_PATH="coverage/shensiwork$uns2016.coverage" NAME="uns2016 Coverage Results" MODIFIED="1530778901180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXP/S2-016" />
     <SUITE FILE_PATH="coverage/shensiwork$qunar.coverage" NAME="qunar Coverage Results" MODIFIED="1527662961048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
     <SUITE FILE_PATH="coverage/shensiwork$anything.coverage" NAME="anything Coverage Results" MODIFIED="1551340793547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deyang" />
@@ -59,6 +60,7 @@
     <SUITE FILE_PATH="coverage/shensiwork$uncve1273.coverage" NAME="uncve1273 Coverage Results" MODIFIED="1530690868049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXP/CVE-1273" />
     <SUITE FILE_PATH="coverage/shensiwork$app.coverage" NAME="app Coverage Results" MODIFIED="1528700820014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mailspider" />
     <SUITE FILE_PATH="coverage/shensiwork$tom.coverage" NAME="tom Coverage Results" MODIFIED="1527819826240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
+    <SUITE FILE_PATH="coverage/shensiwork$asynciolearn.coverage" NAME="asynciolearn Coverage Results" MODIFIED="1573960580743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/asyncio" />
     <SUITE FILE_PATH="coverage/shensiwork$someusefuldict.coverage" NAME="someusefuldict Coverage Results" MODIFIED="1525422908804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
     <SUITE FILE_PATH="coverage/shensiwork$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1528876487493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet" />
     <SUITE FILE_PATH="coverage/shensiwork$s2037__1_.coverage" NAME="s2037 (1) Coverage Results" MODIFIED="1529550586567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-037" />
@@ -66,7 +68,7 @@
     <SUITE FILE_PATH="coverage/shensiwork$unS2_devmode.coverage" NAME="unS2-devmode Coverage Results" MODIFIED="1530155848960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-devmode" />
     <SUITE FILE_PATH="coverage/shensiwork$uncve.coverage" NAME="uncve Coverage Results" MODIFIED="1530667357885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXP/tomcat" />
     <SUITE FILE_PATH="coverage/shensiwork$renamecaptcha.coverage" NAME="renamecaptcha Coverage Results" MODIFIED="1555051737268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/captcha" />
-    <SUITE FILE_PATH="coverage/shensiwork$jianlai.coverage" NAME="jianlai Coverage Results" MODIFIED="1562211731510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader/jianlai" />
+    <SUITE FILE_PATH="coverage/shensiwork$jianlai.coverage" NAME="jianlai Coverage Results" MODIFIED="1562332692308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader/jianlai" />
     <SUITE FILE_PATH="coverage/shensiwork$ctrip.coverage" NAME="ctrip Coverage Results" MODIFIED="1527670068358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
     <SUITE FILE_PATH="coverage/shensiwork$quickstart.coverage" NAME="quickstart Coverage Results" MODIFIED="1525417332228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simulatelogin" />
     <SUITE FILE_PATH="coverage/shensiwork$139.coverage" NAME="139 Coverage Results" MODIFIED="1527561170777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
@@ -99,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+            <state relative-caret-position="2997">
+              <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
               <folding>
                 <element signature="e#44#55#0" expanded="true" />
               </folding>
@@ -108,14 +110,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learnpython/fib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="380">
-                <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/asyncio/asynciolearn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+              <folding>
+                <element signature="e#17#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,8 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/struts2/exp/exp_template.py" />
-        <option value="$PROJECT_DIR$/struts2/exp/__init__.py" />
         <option value="$PROJECT_DIR$/struts2/__init__.py" />
         <option value="$PROJECT_DIR$/struts2/S2-032/conf.py" />
         <option value="$PROJECT_DIR$/struts2/S2-032/__init__.py" />
@@ -194,12 +203,14 @@
         <option value="$PROJECT_DIR$/contrast/_input/t2.csv" />
         <option value="$PROJECT_DIR$/contrast/contool.py" />
         <option value="$PROJECT_DIR$/noveldownloader/jianlai/jianlaidownload.txt" />
-        <option value="$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py" />
+        <option value="$PROJECT_DIR$/learnpython/fib.py" />
+        <option value="$PROJECT_DIR$/asyncio/asynciolearn.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="443" />
     <option name="y" value="80" />
     <option name="width" value="1069" />
@@ -223,17 +234,6 @@
             </path>
             <path>
               <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="noveldownloader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-              <item name="noveldownloader" type="462c0819:PsiDirectoryNode" />
-              <item name="jianlai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -244,7 +244,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../search-engine-parser-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -275,7 +275,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.jianlai">
+  <component name="RunManager" selected="Python.asynciolearn">
+    <configuration name="asynciolearn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="shensiwork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/asyncio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asyncio/asynciolearn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="contool" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -298,7 +320,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="getip138info" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fib" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -306,12 +328,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prepareforwork" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learnpython" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prepareforwork/getip138info.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnpython/fib.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -364,42 +386,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="twitterspiderinfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="shensiwork" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tweet" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tweet/twitterspiderinfo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.twitterspiderinfo" />
       <item itemvalue="Python.translation" />
-      <item itemvalue="Python.getip138info" />
       <item itemvalue="Python.contool" />
       <item itemvalue="Python.jianlai" />
+      <item itemvalue="Python.fib" />
+      <item itemvalue="Python.asynciolearn" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.asynciolearn" />
+        <item itemvalue="Python.fib" />
         <item itemvalue="Python.jianlai" />
         <item itemvalue="Python.contool" />
         <item itemvalue="Python.translation" />
-        <item itemvalue="Python.getip138info" />
-        <item itemvalue="Python.twitterspiderinfo" />
       </list>
     </recent_temporary>
   </component>
@@ -444,11 +444,14 @@
       <workItem from="1561969301751" duration="4027000" />
       <workItem from="1562032044346" duration="36411000" />
       <workItem from="1562206389865" duration="5619000" />
+      <workItem from="1562331561316" duration="1326000" />
+      <workItem from="1570622198459" duration="1609000" />
+      <workItem from="1573959067936" duration="1098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136112000" />
+    <option name="totallyTimeSpent" value="140145000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,16 +463,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17621776" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17004265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49857143" weight="0.77088946" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5269542" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49857143" weight="0.4219089" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46854663" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32700136" />
@@ -547,6 +550,11 @@
           <line>103</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -607,36 +615,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/anaconda/envs/python36/Lib/site-packages/commonbaby/httpaccess/httpaccess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="288" column="48" lean-forward="true" selection-start-line="288" selection-start-column="48" selection-end-line="288" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/anaconda/envs/python36/Lib/site-packages/requests/sessions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="729" column="4" selection-start-line="729" selection-start-column="4" selection-end-line="729" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deyang/ipproxy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#40#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tweet/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepareforwork/relation.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/activatepycharm/activatecode.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -751,20 +729,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/anaconda/envs/python36/Lib/site-packages/bs4/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/anaconda/envs/python37/Lib/site-packages/bs4/element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-837">
-          <caret line="1305" column="8" selection-start-line="1305" selection-start-column="8" selection-end-line="1305" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/anaconda/envs/python36/Lib/site-packages/bs4/__init__.py" />
+    <entry file="file://D:/anaconda/envs/python37/Lib/site-packages/bs4/element.py" />
     <entry file="file://$PROJECT_DIR$/deyang/deyangjindian.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3672">
@@ -843,20 +809,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/anaconda/envs/python37/Lib/pathlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="1243" column="55" selection-start-line="1243" selection-start-column="47" selection-end-line="1243" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/anaconda/envs/python37/Lib/typing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="1500" column="8" selection-start-line="1500" selection-start-column="8" selection-end-line="1500" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/anaconda/envs/python37/Lib/pathlib.py" />
+    <entry file="file://D:/anaconda/envs/python37/Lib/typing.py" />
     <entry file="file://$PROJECT_DIR$/contrast/_input/t2.csv" />
     <entry file="file://$PROJECT_DIR$/contrast/_input/t1.csv" />
     <entry file="file://$PROJECT_DIR$/contrast/_output/t1t2.csv">
@@ -865,16 +819,8 @@
     <entry file="file://$PROJECT_DIR$/contrast/_origin/t1.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/docker-compose.yml" />
+    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/requirements.txt" />
     <entry file="file://$PROJECT_DIR$/contrast/contool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-648">
@@ -882,13 +828,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/anaconda/envs/python37/Lib/json/decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="339" selection-start-line="339" selection-end-line="339" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/anaconda/envs/python37/Lib/json/decoder.py" />
     <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/jianlaidownload.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -896,30 +836,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/jianlai.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/anaconda/envs/python37/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
-          <folding>
-            <element signature="e#44#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/jianlai.txt" />
+    <entry file="file://D:/anaconda/envs/python37/Lib/codecs.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="548">
@@ -928,10 +846,58 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="380">
+          <first_editor relative-caret-position="479">
             <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/anaconda/envs/py37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/anaconda/envs/py37/Lib/site-packages/urllib3/connectionpool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="815" selection-start-line="815" selection-end-line="815" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2997">
+          <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+          <folding>
+            <element signature="e#44#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnpython/fib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/anaconda/envs/py37/Lib/asyncio/base_events.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="572" selection-start-line="572" selection-end-line="572" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asyncio/asynciolearn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#17#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

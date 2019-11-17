@@ -14,7 +14,7 @@ class JianLai(object):
 
     def __init__(self):
         self.ha = requests.session()
-        self.cookie = 'jieqiVisitId=article_articleviews%3D13810; Hm_lvt_d3e5f4edf98e3ec0ced6fc2c39b60bae=1562206621,1562206656; Hm_lpvt_d3e5f4edf98e3ec0ced6fc2c39b60bae=1562206678'
+        self.cookie = 'Hm_lvt_d3e5f4edf98e3ec0ced6fc2c39b60bae=1562331779; jieqiVisitId=article_articleviews%3D13810; Hm_lpvt_d3e5f4edf98e3ec0ced6fc2c39b60bae=1562332667'
         self.links = []
         self.downloaded = self.get_downloaded()
 
