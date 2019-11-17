@@ -1,137 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b48e178-5230-49c6-a220-8c88e21b36f1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/asyncio/asynciolearn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnpython/fib.py" afterDir="false" />
+    <list default="true" id="23d0f06b-7885-4899-a38d-4f4a9c52bbbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dbipparse/dbipparse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbipparse/owtest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskdownload/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskdownload/flaskstart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noveldownloader/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noveldownloader/biquge/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweet/seleniumlogin/tweetlogin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py" beforeDir="false" afterPath="$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/noveldownloader/jianlai/jianlaidownload.txt" beforeDir="false" afterPath="$PROJECT_DIR$/noveldownloader/jianlai/jianlaidownload.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noveldownloader/biquge/novel.py" beforeDir="false" afterPath="$PROJECT_DIR$/noveldownloader/biquge/novel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noveldownloader/sometest.py" beforeDir="false" afterPath="$PROJECT_DIR$/noveldownloader/sometest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweet/tweetspider.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweet/tweetspider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/shensiwork$qzone.coverage" NAME="qzone Coverage Results" MODIFIED="1527651137466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
-    <SUITE FILE_PATH="coverage/shensiwork$fib.coverage" NAME="fib Coverage Results" MODIFIED="1570623235269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnpython" />
-    <SUITE FILE_PATH="coverage/shensiwork$uns2016.coverage" NAME="uns2016 Coverage Results" MODIFIED="1530778901180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXP/S2-016" />
-    <SUITE FILE_PATH="coverage/shensiwork$qunar.coverage" NAME="qunar Coverage Results" MODIFIED="1527662961048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
-    <SUITE FILE_PATH="coverage/shensiwork$anything.coverage" NAME="anything Coverage Results" MODIFIED="1551340793547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deyang" />
-    <SUITE FILE_PATH="coverage/shensiwork$activatecode.coverage" NAME="activatecode Coverage Results" MODIFIED="1554966790699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/activatepycharm" />
-    <SUITE FILE_PATH="coverage/shensiwork$tweetspider.coverage" NAME="tweetspider Coverage Results" MODIFIED="1528871270120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet" />
-    <SUITE FILE_PATH="coverage/shensiwork$S2_devmode.coverage" NAME="S2-devmode Coverage Results" MODIFIED="1530583728531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-devmode" />
-    <SUITE FILE_PATH="coverage/shensiwork$S2032.coverage" NAME="S2032 Coverage Results" MODIFIED="1530583492245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-032" />
-    <SUITE FILE_PATH="coverage/shensiwork$getip138info.coverage" NAME="getip138info Coverage Results" MODIFIED="1562049104746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
-    <SUITE FILE_PATH="coverage/shensiwork$uns2_045.coverage" NAME="uns2-045 Coverage Results" MODIFIED="1529997984637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-045" />
-    <SUITE FILE_PATH="coverage/shensiwork$S2016.coverage" NAME="S2016 Coverage Results" MODIFIED="1530778941666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXP/S2-016" />
-    <SUITE FILE_PATH="coverage/shensiwork$uns2_048.coverage" NAME="uns2-048 Coverage Results" MODIFIED="1530064390111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-048" />
-    <SUITE FILE_PATH="coverage/shensiwork$126.coverage" NAME="126 Coverage Results" MODIFIED="1527501221819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
-    <SUITE FILE_PATH="coverage/shensiwork$rec_quna.coverage" NAME="rec_quna Coverage Results" MODIFIED="1555059877076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/captcha" />
-    <SUITE FILE_PATH="coverage/shensiwork$csair.coverage" NAME="csair Coverage Results" MODIFIED="1527672570876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
-    <SUITE FILE_PATH="coverage/shensiwork$uns2037.coverage" NAME="uns2037 Coverage Results" MODIFIED="1529998390101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-037" />
-    <SUITE FILE_PATH="coverage/shensiwork$prcexception.coverage" NAME="prcexception Coverage Results" MODIFIED="1528102378031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
-    <SUITE FILE_PATH="coverage/shensiwork$S2_037.coverage" NAME="S2-037 Coverage Results" MODIFIED="1530583139871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-037" />
-    <SUITE FILE_PATH="coverage/shensiwork$translation.coverage" NAME="translation Coverage Results" MODIFIED="1562115641153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youdaotrans" />
-    <SUITE FILE_PATH="coverage/shensiwork$unS2_052.coverage" NAME="unS2-052 Coverage Results" MODIFIED="1530067523687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-052" />
-    <SUITE FILE_PATH="coverage/shensiwork$qqmail.coverage" NAME="qqmail Coverage Results" MODIFIED="1527494099777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
-    <SUITE FILE_PATH="coverage/shensiwork$shenzhen.coverage" NAME="shenzhen Coverage Results" MODIFIED="1527734045034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
-    <SUITE FILE_PATH="coverage/shensiwork$yeahnet.coverage" NAME="yeahnet Coverage Results" MODIFIED="1527558591935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
-    <SUITE FILE_PATH="coverage/shensiwork$S2029.coverage" NAME="S2029 Coverage Results" MODIFIED="1530756998962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXP/S2-029" />
-    <SUITE FILE_PATH="coverage/shensiwork$uns2053.coverage" NAME="uns2053 Coverage Results" MODIFIED="1530087446559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-053" />
-    <SUITE FILE_PATH="coverage/shensiwork$ipproxy.coverage" NAME="ipproxy Coverage Results" MODIFIED="1551340853381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deyang" />
-    <SUITE FILE_PATH="coverage/shensiwork$super8.coverage" NAME="super8 Coverage Results" MODIFIED="1527738363492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
-    <SUITE FILE_PATH="coverage/shensiwork$qqqiye.coverage" NAME="qqqiye Coverage Results" MODIFIED="1527497868936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
-    <SUITE FILE_PATH="coverage/shensiwork$189.coverage" NAME="189 Coverage Results" MODIFIED="1527563228431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
-    <SUITE FILE_PATH="coverage/shensiwork$CVE.coverage" NAME="CVE Coverage Results" MODIFIED="1530668267181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXP/tomcat" />
-    <SUITE FILE_PATH="coverage/shensiwork$facebookapi.coverage" NAME="facebookapi Coverage Results" MODIFIED="1527213865174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
-    <SUITE FILE_PATH="coverage/shensiwork$tomspider.coverage" NAME="tomspider Coverage Results" MODIFIED="1528362206156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mailspider/tom" />
-    <SUITE FILE_PATH="coverage/shensiwork$uncve0846.coverage" NAME="uncve0846 Coverage Results" MODIFIED="1530676548719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXP/CVE-0846" />
-    <SUITE FILE_PATH="coverage/shensiwork$S2_053.coverage" NAME="S2-053 Coverage Results" MODIFIED="1530585909254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-053" />
-    <SUITE FILE_PATH="coverage/shensiwork$sina.coverage" NAME="sina Coverage Results" MODIFIED="1527578638038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
-    <SUITE FILE_PATH="coverage/shensiwork$elong.coverage" NAME="elong Coverage Results" MODIFIED="1527732113688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
-    <SUITE FILE_PATH="coverage/shensiwork$baidupan.coverage" NAME="baidupan Coverage Results" MODIFIED="1527586848364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
-    <SUITE FILE_PATH="coverage/shensiwork$s2037py3.coverage" NAME="s2037py3 Coverage Results" MODIFIED="1529489259193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-037" />
-    <SUITE FILE_PATH="coverage/shensiwork$s2037.coverage" NAME="s2037 Coverage Results" MODIFIED="1529402413233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-037" />
-    <SUITE FILE_PATH="coverage/shensiwork$contool.coverage" NAME="contool Coverage Results" MODIFIED="1562144180401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/contrast" />
-    <SUITE FILE_PATH="coverage/shensiwork$flaskuploadfile.coverage" NAME="flaskuploadfile Coverage Results" MODIFIED="1529891798951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskdownload" />
-    <SUITE FILE_PATH="coverage/shensiwork$uncve1273.coverage" NAME="uncve1273 Coverage Results" MODIFIED="1530690868049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXP/CVE-1273" />
-    <SUITE FILE_PATH="coverage/shensiwork$app.coverage" NAME="app Coverage Results" MODIFIED="1528700820014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mailspider" />
-    <SUITE FILE_PATH="coverage/shensiwork$tom.coverage" NAME="tom Coverage Results" MODIFIED="1527819826240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
-    <SUITE FILE_PATH="coverage/shensiwork$asynciolearn.coverage" NAME="asynciolearn Coverage Results" MODIFIED="1573960580743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/asyncio" />
-    <SUITE FILE_PATH="coverage/shensiwork$someusefuldict.coverage" NAME="someusefuldict Coverage Results" MODIFIED="1525422908804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
-    <SUITE FILE_PATH="coverage/shensiwork$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1528876487493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet" />
-    <SUITE FILE_PATH="coverage/shensiwork$s2037__1_.coverage" NAME="s2037 (1) Coverage Results" MODIFIED="1529550586567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-037" />
-    <SUITE FILE_PATH="coverage/shensiwork$uns2_019.coverage" NAME="uns2-019 Coverage Results" MODIFIED="1530758050038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXP/S2-019" />
-    <SUITE FILE_PATH="coverage/shensiwork$unS2_devmode.coverage" NAME="unS2-devmode Coverage Results" MODIFIED="1530155848960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-devmode" />
-    <SUITE FILE_PATH="coverage/shensiwork$uncve.coverage" NAME="uncve Coverage Results" MODIFIED="1530667357885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXP/tomcat" />
-    <SUITE FILE_PATH="coverage/shensiwork$renamecaptcha.coverage" NAME="renamecaptcha Coverage Results" MODIFIED="1555051737268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/captcha" />
-    <SUITE FILE_PATH="coverage/shensiwork$jianlai.coverage" NAME="jianlai Coverage Results" MODIFIED="1562332692308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader/jianlai" />
-    <SUITE FILE_PATH="coverage/shensiwork$ctrip.coverage" NAME="ctrip Coverage Results" MODIFIED="1527670068358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
-    <SUITE FILE_PATH="coverage/shensiwork$quickstart.coverage" NAME="quickstart Coverage Results" MODIFIED="1525417332228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simulatelogin" />
-    <SUITE FILE_PATH="coverage/shensiwork$139.coverage" NAME="139 Coverage Results" MODIFIED="1527561170777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
-    <SUITE FILE_PATH="coverage/shensiwork$qunacaptcha.coverage" NAME="qunacaptcha Coverage Results" MODIFIED="1555058430199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/captcha" />
-    <SUITE FILE_PATH="coverage/shensiwork$simulate_voxer.coverage" NAME="simulate_voxer Coverage Results" MODIFIED="1525418846417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
-    <SUITE FILE_PATH="coverage/shensiwork$zoomeyeclass.coverage" NAME="zoomeyeclass Coverage Results" MODIFIED="1525405894793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareforwork" />
-    <SUITE FILE_PATH="coverage/shensiwork$deyangjindian.coverage" NAME="deyangjindian Coverage Results" MODIFIED="1550398340162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deyang" />
-    <SUITE FILE_PATH="coverage/shensiwork$unS2032.coverage" NAME="unS2032 Coverage Results" MODIFIED="1529997398437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-032" />
-    <SUITE FILE_PATH="coverage/shensiwork$hnair.coverage" NAME="hnair Coverage Results" MODIFIED="1527670958096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phonedata" />
-    <SUITE FILE_PATH="coverage/shensiwork$quickstart__1_.coverage" NAME="quickstart (1) Coverage Results" MODIFIED="1525855668227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simulatelogin/simulatelogin" />
-    <SUITE FILE_PATH="coverage/shensiwork$S2_045.coverage" NAME="S2-045 Coverage Results" MODIFIED="1530519670636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/struts2/S2-045" />
-    <SUITE FILE_PATH="coverage/shensiwork$twitterspiderinfo.coverage" NAME="twitterspiderinfo Coverage Results" MODIFIED="1561973735378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2997">
-              <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
-              <folding>
-                <element signature="e#44#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learnpython/fib.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/asyncio/asynciolearn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-              <folding>
-                <element signature="e#17#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -140,109 +27,17 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>cookies</find>
-      <find>cookie</find>
-      <find>print</find>
-      <find>BeautifulSoup</find>
-      <find>user-actions btn-group not-following not-muting</find>
-      <find>translation</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/struts2/__init__.py" />
-        <option value="$PROJECT_DIR$/struts2/S2-032/conf.py" />
-        <option value="$PROJECT_DIR$/struts2/S2-032/__init__.py" />
-        <option value="$PROJECT_DIR$/struts2/S2-032/S2032.py" />
-        <option value="$PROJECT_DIR$/struts2/S2-037/__init__.py" />
-        <option value="$PROJECT_DIR$/struts2/S2-037/S2-037.py" />
-        <option value="$PROJECT_DIR$/struts2/S2-045/__init__.py" />
-        <option value="$PROJECT_DIR$/struts2/S2-045/conf.py" />
-        <option value="$PROJECT_DIR$/struts2/S2-045/S2-045.py" />
-        <option value="$PROJECT_DIR$/struts2/S2-devmode/S2-devmode.py" />
-        <option value="$PROJECT_DIR$/struts2/S2-053/__init__.py" />
-        <option value="$PROJECT_DIR$/struts2/S2-053/conf.py" />
-        <option value="$PROJECT_DIR$/struts2/S2-053/S2-053.py" />
-        <option value="$PROJECT_DIR$/struts2/tomcat/uncve.py" />
-        <option value="$PROJECT_DIR$/EXP/tomcat/uncve.py" />
-        <option value="$PROJECT_DIR$/EXP/tomcat/__init__.py" />
-        <option value="$PROJECT_DIR$/EXP/tomcat/conf.py" />
-        <option value="$PROJECT_DIR$/EXP/tomcat/CVE.py" />
-        <option value="$PROJECT_DIR$/EXP/S2-052/unS2-052.py" />
-        <option value="$PROJECT_DIR$/EXP/CVE-1273/uncve1273.py" />
-        <option value="$PROJECT_DIR$/EXP/CVE-0846/uncve0846.py" />
-        <option value="$PROJECT_DIR$/EXP/S2-029.py" />
-        <option value="$PROJECT_DIR$/EXP/S2-029/__init__.py" />
-        <option value="$PROJECT_DIR$/EXP/S2-029/conf.py" />
-        <option value="$PROJECT_DIR$/EXP/S2-029/S2029.py" />
-        <option value="$PROJECT_DIR$/EXP/S2-019/uns2-019.py" />
-        <option value="$PROJECT_DIR$/EXP/S2-016/__init__.py" />
-        <option value="$PROJECT_DIR$/EXP/S2-016/conf.py" />
-        <option value="$PROJECT_DIR$/EXP/S2-016/S2016.py" />
-        <option value="$PROJECT_DIR$/EXP/S2-016/uns2016.py" />
-        <option value="$PROJECT_DIR$/deyang/deyangjindian.py" />
-        <option value="$PROJECT_DIR$/deyang/baidutieba.py" />
-        <option value="$PROJECT_DIR$/deyang/anything.py" />
-        <option value="$PROJECT_DIR$/deyang/ipproxy.py" />
-        <option value="$PROJECT_DIR$/captcahspider.py" />
-        <option value="$PROJECT_DIR$/activatepycharm/activatecode.py" />
-        <option value="$PROJECT_DIR$/captcha/renamecaptcha.py" />
-        <option value="$PROJECT_DIR$/captcha/qunacaptcha.py" />
-        <option value="$USER_HOME$/Desktop/PythonHTTP调用示例/YDMHTTPDemo3.x.py" />
-        <option value="$PROJECT_DIR$/captcha/rec_quna.py" />
-        <option value="$PROJECT_DIR$/tweet/twitterspiderinfo.py" />
-        <option value="$PROJECT_DIR$/prepareforwork/getip138info.py" />
-        <option value="$PROJECT_DIR$/contrast/__init__.py" />
-        <option value="$PROJECT_DIR$/youdaotrans/translation.py" />
-        <option value="$PROJECT_DIR$/contrast/_input/t2.csv" />
-        <option value="$PROJECT_DIR$/contrast/contool.py" />
-        <option value="$PROJECT_DIR$/noveldownloader/jianlai/jianlaidownload.txt" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py" />
-        <option value="$PROJECT_DIR$/learnpython/fib.py" />
-        <option value="$PROJECT_DIR$/asyncio/asynciolearn.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="443" />
-    <option name="y" value="80" />
-    <option name="width" value="1069" />
-    <option name="height" value="604" />
-  </component>
+  <component name="ProjectId" id="1Ol3i7BIV1trSek1rLxH2QE9YP5" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shensiwork" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shensiwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../search-engine-parser-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -251,16 +46,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\gitcode\shensiwork\contrast\_input" />
-      <recent name="D:\gitcode\shensiwork\captcha" />
-      <recent name="D:\gitcode\shensiwork\struts2" />
-      <recent name="D:\gitcode\shensiwork\struts2\exp" />
-      <recent name="D:\gitcode\shensiwork\simulatelogin\simulatelogin" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\gitcode\shensiwork\noveldownloader\jianlai" />
-      <recent name="D:\gitcode\shensiwork\struts2\S2-devmode" />
-      <recent name="D:\gitcode\shensiwork\struts2\S2-037" />
+      <recent name="D:\gitcode\shensiwork\dbipparse" />
+      <recent name="D:\gitcode\shensiwork\noveldownloader\biquge" />
+      <recent name="D:\gitcode\shensiwork\noveldownloader" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -275,8 +63,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.asynciolearn">
-    <configuration name="asynciolearn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.dbipparse">
+    <configuration name="dbipparse" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,12 +72,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/asyncio" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dbipparse" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asyncio/asynciolearn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dbipparse/dbipparse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -298,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="contool" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="flaskstart" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -306,12 +94,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/contrast" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flaskdownload" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/contrast/contool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flaskdownload/flaskstart.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fib" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="owtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,12 +116,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learnpython" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dbipparse" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnpython/fib.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dbipparse/owtest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="jianlai" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tweetlogin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,12 +138,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/noveldownloader/jianlai" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tweet/seleniumlogin" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tweet/seleniumlogin/tweetlogin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -364,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="translation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tweetspider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -377,7 +165,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/youdaotrans/translation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tweet/tweetspider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -386,20 +174,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.translation" />
-      <item itemvalue="Python.contool" />
-      <item itemvalue="Python.jianlai" />
-      <item itemvalue="Python.fib" />
-      <item itemvalue="Python.asynciolearn" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.asynciolearn" />
-        <item itemvalue="Python.fib" />
-        <item itemvalue="Python.jianlai" />
-        <item itemvalue="Python.contool" />
-        <item itemvalue="Python.translation" />
+        <item itemvalue="Python.dbipparse" />
+        <item itemvalue="Python.owtest" />
+        <item itemvalue="Python.flaskstart" />
+        <item itemvalue="Python.tweetlogin" />
+        <item itemvalue="Python.tweetspider" />
       </list>
     </recent_temporary>
   </component>
@@ -408,147 +189,56 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7b48e178-5230-49c6-a220-8c88e21b36f1" name="Default" comment="" />
-      <created>1525340437432</created>
+      <changelist id="23d0f06b-7885-4899-a38d-4f4a9c52bbbe" name="Default Changelist" comment="" />
+      <created>1562570215459</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1525340437432</updated>
-      <workItem from="1550299396736" duration="8434000" />
-      <workItem from="1550366668236" duration="15068000" />
-      <workItem from="1550391441231" duration="7516000" />
-      <workItem from="1550458575094" duration="609000" />
-      <workItem from="1551057653023" duration="2466000" />
-      <workItem from="1551063955021" duration="9256000" />
-      <workItem from="1551259786139" duration="1654000" />
-      <workItem from="1551324777742" duration="3243000" />
-      <workItem from="1551340104444" duration="1388000" />
-      <workItem from="1551403336220" duration="598000" />
-      <workItem from="1553500396581" duration="2165000" />
-      <workItem from="1554861473611" duration="4321000" />
-      <workItem from="1554966525417" duration="285000" />
-      <workItem from="1554966835409" duration="17364000" />
-      <workItem from="1555481746671" duration="61000" />
-      <workItem from="1555483717522" duration="757000" />
-      <workItem from="1555558648076" duration="1363000" />
-      <workItem from="1555570570577" duration="1397000" />
-      <workItem from="1555581212856" duration="594000" />
-      <workItem from="1555894987161" duration="637000" />
-      <workItem from="1557286903942" duration="192000" />
-      <workItem from="1557289387121" duration="29000" />
-      <workItem from="1557290699429" duration="1006000" />
-      <workItem from="1561599258740" duration="866000" />
-      <workItem from="1561713382173" duration="1576000" />
-      <workItem from="1561795441980" duration="1710000" />
-      <workItem from="1561943987785" duration="5243000" />
-      <workItem from="1561968604926" duration="257000" />
-      <workItem from="1561969301751" duration="4027000" />
-      <workItem from="1562032044346" duration="36411000" />
-      <workItem from="1562206389865" duration="5619000" />
-      <workItem from="1562331561316" duration="1326000" />
-      <workItem from="1570622198459" duration="1609000" />
-      <workItem from="1573959067936" duration="1098000" />
+      <updated>1562570215459</updated>
+      <workItem from="1562570222127" duration="1832000" />
+      <workItem from="1562729746507" duration="2535000" />
+      <workItem from="1562750363048" duration="3251000" />
+      <workItem from="1562807511710" duration="38000" />
+      <workItem from="1564538481810" duration="200000" />
+      <workItem from="1564539816688" duration="80000" />
+      <workItem from="1564650605860" duration="4770000" />
+      <workItem from="1565245989427" duration="4784000" />
+      <workItem from="1565855761904" duration="848000" />
+      <workItem from="1566455025145" duration="2192000" />
+      <workItem from="1566871122346" duration="3674000" />
+      <workItem from="1566959931863" duration="3933000" />
+      <workItem from="1567042478552" duration="1192000" />
+      <workItem from="1567733248963" duration="682000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140145000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17004265" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49857143" weight="0.4219089" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46854663" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32700136" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32971507" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.26010782" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50142854" side_tool="true" weight="0.5439883" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3293617" />
-      <window_info anchor="right" id="Mongo Explorer" order="4" weight="0.1504298" />
-      <window_info anchor="right" id="SciView" order="5" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18767908" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49857143" weight="0.37584803" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997114" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32700136" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32971507" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32909605" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50142854" side_tool="true" weight="0.5439883" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Mongo Explorer" order="3" weight="0.1504298" />
-      <window_info anchor="right" id="Database" order="4" weight="0.3293617" />
-      <window_info anchor="right" id="SciView" order="5" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/deyang/ipproxy.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/noveldownloader/sometest.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tweet/twitterspiderinfo.py</url>
+          <url>file://$PROJECT_DIR$/noveldownloader/sometest.py</url>
           <line>36</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tweet/twitterspiderinfo.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/contrast/contool.py</url>
-          <line>127</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/contrast/contool.py</url>
-          <line>97</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py</url>
-          <line>103</line>
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py</url>
@@ -556,350 +246,25 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/shensiwork$tweetspider.coverage" NAME="tweetspider Coverage Results" MODIFIED="1564538528084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet" />
+    <SUITE FILE_PATH="coverage/shensiwork$owtest.coverage" NAME="owtest Coverage Results" MODIFIED="1566873966414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbipparse" />
+    <SUITE FILE_PATH="coverage/shensiwork$tweetlogin.coverage" NAME="tweetlogin Coverage Results" MODIFIED="1564653697315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet/seleniumlogin" />
+    <SUITE FILE_PATH="coverage/shensiwork$novel.coverage" NAME="novel Coverage Results" MODIFIED="1562729827848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader/biquge" />
+    <SUITE FILE_PATH="coverage/shensiwork$dbipparse.coverage" NAME="dbipparse Coverage Results" MODIFIED="1566982078523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbipparse" />
+    <SUITE FILE_PATH="coverage/shensiwork$jianlai.coverage" NAME="jianlai Coverage Results" MODIFIED="1562570324658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader/jianlai" />
+    <SUITE FILE_PATH="coverage/shensiwork$sometest.coverage" NAME="sometest Coverage Results" MODIFIED="1562753273150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader" />
+    <SUITE FILE_PATH="coverage/shensiwork$flaskstart.coverage" NAME="flaskstart Coverage Results" MODIFIED="1565253519545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskdownload" />
+  </component>
   <component name="debuggerHistoryManager">
-    <expressions id="evaluateCodeFragment">
+    <expressions id="evaluateExpression">
       <expression>
-        <expression-string>content</expression-string>
+        <expression-string>inspect.getmembers('./biquge')</expression-string>
         <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>title_info</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>title_info[3:-4]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>soup.find_all('div', attrs={'class': 'user-actions btn-group not-following not-muting'})</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>soup.find_all('div', attrs={'class': 'user-actions btn-group not-following not-muting '})</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>soup.find_all('div', attrs={'class': re.compile('user-actions btn-group not-following not-muting ')})</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>soup.find('div', attrs={'class': 'user-actions btn-group not-following not-muting '})</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>soup.findAll('div', attrs={'class': 'user-actions btn-group not-following not-muting '})</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>soup.find('div')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/activatepycharm/activatecode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Python调用示例/YDMPython3.x.py" />
-    <entry file="file://$USER_HOME$/Desktop/PythonHTTP调用示例/YDMHTTPDemo2.x.py" />
-    <entry file="file://$USER_HOME$/Desktop/PythonHTTP调用示例/YDMHTTPDemo3.x.py" />
-    <entry file="file://$PROJECT_DIR$/captcha/qunacaptcha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding>
-            <element signature="e#17#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/captcha/rec_quna.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2052">
-          <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deyang/get_loc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deyang/anything.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deyang/baidutieba.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7695">
-          <caret line="297" column="23" selection-start-line="297" selection-start-column="23" selection-end-line="297" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/captcha/renamecaptcha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phoneprice/phoneprice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepareforwork/prcexception.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepareforwork/simulate_voxer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepareforwork/someusefuldict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-415" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepareforwork/zoomeyeclass.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deyang/deyang.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2106">
-          <caret line="78" column="53" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tweet/tweetspider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <element signature="e#43#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/anaconda/envs/python36/Lib/site-packages/bs4/__init__.py" />
-    <entry file="file://D:/anaconda/envs/python37/Lib/site-packages/bs4/element.py" />
-    <entry file="file://$PROJECT_DIR$/deyang/deyangjindian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3672">
-          <caret line="136" column="8" selection-start-line="136" selection-start-column="8" selection-end-line="136" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flaskdownload/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXP/feixun_fwr604h.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2751" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/downloadlink/vpntest.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/downloadlink/download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <folding>
-            <element signature="e#36#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facebook/facebook/spiders/crawlfacebook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facebook/facebookajax.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facebook/facebookjs.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepareforwork/getip138info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="111" column="48" selection-start-line="111" selection-start-column="48" selection-end-line="111" selection-end-column="48" />
-          <folding>
-            <element signature="e#33#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contrast/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tweet/twitterspiderinfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-          <folding>
-            <element signature="e#46#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youdaotrans/translation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="199" column="38" selection-start-line="199" selection-start-column="38" selection-end-line="199" selection-end-column="38" />
-          <folding>
-            <element signature="e#47#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/anaconda/envs/python37/Lib/pathlib.py" />
-    <entry file="file://D:/anaconda/envs/python37/Lib/typing.py" />
-    <entry file="file://$PROJECT_DIR$/contrast/_input/t2.csv" />
-    <entry file="file://$PROJECT_DIR$/contrast/_input/t1.csv" />
-    <entry file="file://$PROJECT_DIR$/contrast/_output/t1t2.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contrast/_origin/t1.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/docker-compose.yml" />
-    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/requirements.txt" />
-    <entry file="file://$PROJECT_DIR$/contrast/contool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/anaconda/envs/python37/Lib/json/decoder.py" />
-    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/jianlaidownload.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/jianlai.txt" />
-    <entry file="file://D:/anaconda/envs/python37/Lib/codecs.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="479">
-            <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/anaconda/envs/py37/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/anaconda/envs/py37/Lib/site-packages/urllib3/connectionpool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="815" selection-start-line="815" selection-end-line="815" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/noveldownloader/jianlai/jianlai.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2997">
-          <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
-          <folding>
-            <element signature="e#44#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnpython/fib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/anaconda/envs/py37/Lib/asyncio/base_events.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="572" selection-start-line="572" selection-end-line="572" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/asyncio/asynciolearn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="e#17#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

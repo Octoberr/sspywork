@@ -1,5 +1,5 @@
 ﻿# 前言
-深思公司的前期工作内容，以及以后代码的编写，以后直接创建子级目录并且在readme说明大概意思
+前期工作内容，以及以后代码的编写，以后直接创建子级目录并且在readme说明大概意思
 
 ### [facebook爬虫](./facebook/)
 
@@ -39,8 +39,13 @@ tom邮箱的爬虫，能够下载收件箱邮件保存为eml格式，获取联�
 终于解决了同时爬取帖子楼层和楼层评论的问题，并且对requests.session()的
 cookie更新机制有了更深的认识，deyang文件夹下还有些爬虫，对beautifulsoup的使用有了新的理解
 
-### [小说下载器](./noveldownloader)
-喜欢看剑来，就写了一个剑来小说的增量下载
+### [笔趣阁小说下载器](./noveldownloader/biquge)
+笔趣阁的小说下载器  
+有不少山寨网站，认准官网  
+小说官网：https://www.xbiquge.cc  
+下载小说:  
+输入小说首页：类似于https://www.xbiquge.cc/book/46840/
+
 
 # imgtest
 Images:

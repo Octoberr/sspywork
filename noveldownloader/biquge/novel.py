@@ -1,22 +1,24 @@
 """
-jianlai下载
-这不能多线程下载
-一下就乱了
-2019/07/04
+笔趣阁的小说下载器
+有不少山寨网站，认准官网
+小说官网：https://www.xbiquge.cc
+下载小说
+输入小说首页：类似于https://www.xbiquge.cc/book/46840/
 """
+
 import json
 import requests
 import re
+import time
 from bs4 import BeautifulSoup
 
 
-class JianLai(object):
+class Novel(object):
+    namel = 'novel'
 
     def __init__(self):
         self.ha = requests.session()
-
-        self.cookie = 'jieqiVisitId=article_articleviews%3D13810; Hm_lvt_d3e5f4edf98e3ec0ced6fc2c39b60bae=1562212519,1562220269,1562221139,1562567247; Hm_lpvt_d3e5f4edf98e3ec0ced6fc2c39b60bae=1562567247'
-
+        self.cookie = 'Hm_lvt_d3e5f4edf98e3ec0ced6fc2c39b60bae=1562212519,1562220269,1562221139,1562567247; Hm_lpvt_d3e5f4edf98e3ec0ced6fc2c39b60bae=1562729794; jieqiVisitId=article_articleviews%3D46840'
         self.links = []
         self.downloaded = self.get_downloaded()
 
@@ -43,12 +45,12 @@ class JianLai(object):
         else:
             return json.loads(res)
 
-    def get_all_downloadlinks(self):
+    def get_all_downloadlinks(self, url):
         """
         获取已存在的连接
         :return:
         """
-        start_url = 'https://www.xbiquge.cc/book/13810/'
+        # start_url = 'https://www.xbiquge.cc/book/13810/'
         headers = {
             'Accept': "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
             'Accept-Encoding': "gzip, deflate, br",
@@ -58,11 +60,11 @@ class JianLai(object):
             'Cookie': self.cookie,
             'Host': "www.xbiquge.cc",
             'Pragma': "no-cache",
-            'Referer': "https://www.google.com/",
+            'Referer': url,
             'Upgrade-Insecure-Requests': "1",
             'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36"
         }
-        res = requests.get(start_url, headers=headers)
+        res = requests.get(url, headers=headers)
         res.encoding = 'GBK'
         res_text = res.text
         re_zhangjie = re.compile('\d+\.html')
@@ -71,13 +73,13 @@ class JianLai(object):
         ready_downlinks = [x for x in all_zs if x not in self.downloaded]
         return ready_downlinks[2:]
 
-    def download_link(self, downloadlinks: list):
+    def download_link(self, lurl, downloadlinks: list):
         """
         开始按顺序下载链接
         :param downloadlinks:
         :return:
         """
-        lurl = 'https://www.xbiquge.cc/book/13810/'
+        # lurl = 'https://www.xbiquge.cc/book/13810/'
         # url = 'https://www.xbiquge.cc/book/13810/26653657.html'
 
         headers = {
@@ -89,12 +91,12 @@ class JianLai(object):
             'Cookie': self.cookie,
             'Host': "www.xbiquge.cc",
             'Pragma': "no-cache",
-            'Referer': "https://www.xbiquge.cc/book/13810/",
+            'Referer': lurl,
             'Upgrade-Insecure-Requests': "1",
             'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36"
         }
         self.ha.headers.update(headers)
-        fp = open('jianlai.txt', 'a', encoding='utf-8')
+        fp = open(f'{int(time.time())}.txt', 'a', encoding='utf-8')
 
         for el in downloadlinks:
             url = f'{lurl}{el}'
@@ -107,18 +109,19 @@ class JianLai(object):
             print(f'写入章节:{title}')
             fp.write(str(title.encode('utf-8').decode('utf-8')))
 
-            content = soup.find('div', attrs={'id': 'content', 'name': 'content'}).text.replace('笔趣阁 www.xbiquge.cc，最快更新剑来最新章节！', '')
+            content = soup.find('div', attrs={'id': 'content', 'name': 'content'}).text
             fp.write(str(content.encode('utf-8').decode('utf-8')))
 
         fp.close()
         return
 
     def start(self):
-        alllinks = self.get_all_downloadlinks()
+        url = input("输入小说地址：")
+        alllinks = self.get_all_downloadlinks(url)
         print('开始下载')
-        self.download_link(alllinks)
+        self.download_link(url, alllinks)
 
 
 if __name__ == '__main__':
-    jl = JianLai()
+    jl = Novel()
     jl.start()

@@ -1,8 +1,5 @@
 """
-jianlai下载
-这不能多线程下载
-一下就乱了
-2019/07/04
+https://www.xbiquge.cc/book/6737/
 """
 import json
 import requests
@@ -14,9 +11,7 @@ class JianLai(object):
 
     def __init__(self):
         self.ha = requests.session()
-
-        self.cookie = 'jieqiVisitId=article_articleviews%3D13810; Hm_lvt_d3e5f4edf98e3ec0ced6fc2c39b60bae=1562212519,1562220269,1562221139,1562567247; Hm_lpvt_d3e5f4edf98e3ec0ced6fc2c39b60bae=1562567247'
-
+        self.cookie = 'jieqiVisitId=article_articleviews%3D13810; Hm_lvt_d3e5f4edf98e3ec0ced6fc2c39b60bae=1562206621,1562206656; Hm_lpvt_d3e5f4edf98e3ec0ced6fc2c39b60bae=1562206678'
         self.links = []
         self.downloaded = self.get_downloaded()
 
@@ -26,7 +21,7 @@ class JianLai(object):
         :param down_links:
         :return:
         """
-        with open('jianlaidownload.txt', 'w') as fp:
+        with open('jianke.txt', 'w') as fp:
             fp.write(json.dumps(down_links, ensure_ascii=False))
         return
 
@@ -48,7 +43,7 @@ class JianLai(object):
         获取已存在的连接
         :return:
         """
-        start_url = 'https://www.xbiquge.cc/book/13810/'
+        start_url = 'https://www.xbiquge.cc/book/6737/'
         headers = {
             'Accept': "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
             'Accept-Encoding': "gzip, deflate, br",
@@ -58,7 +53,7 @@ class JianLai(object):
             'Cookie': self.cookie,
             'Host': "www.xbiquge.cc",
             'Pragma': "no-cache",
-            'Referer': "https://www.google.com/",
+            'Referer': "https://www.xbiquge.cc/book/6737/",
             'Upgrade-Insecure-Requests': "1",
             'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36"
         }
@@ -77,7 +72,7 @@ class JianLai(object):
         :param downloadlinks:
         :return:
         """
-        lurl = 'https://www.xbiquge.cc/book/13810/'
+        lurl = 'https://www.xbiquge.cc/book/6737/'
         # url = 'https://www.xbiquge.cc/book/13810/26653657.html'
 
         headers = {
@@ -89,12 +84,12 @@ class JianLai(object):
             'Cookie': self.cookie,
             'Host': "www.xbiquge.cc",
             'Pragma': "no-cache",
-            'Referer': "https://www.xbiquge.cc/book/13810/",
+            'Referer': "https://www.xbiquge.cc/book/6737/",
             'Upgrade-Insecure-Requests': "1",
             'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36"
         }
         self.ha.headers.update(headers)
-        fp = open('jianlai.txt', 'a', encoding='utf-8')
+        fp = open('间客.txt', 'a', encoding='utf-8')
 
         for el in downloadlinks:
             url = f'{lurl}{el}'
