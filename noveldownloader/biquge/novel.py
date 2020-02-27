@@ -4,6 +4,7 @@
 小说官网：https://www.xbiquge.cc
 下载小说
 输入小说首页：类似于https://www.xbiquge.cc/book/46840/
+可能需要更新下cookie
 """
 
 import json
@@ -18,7 +19,7 @@ class Novel(object):
 
     def __init__(self):
         self.ha = requests.session()
-        self.cookie = 'Hm_lvt_d3e5f4edf98e3ec0ced6fc2c39b60bae=1562212519,1562220269,1562221139,1562567247; Hm_lpvt_d3e5f4edf98e3ec0ced6fc2c39b60bae=1562729794; jieqiVisitId=article_articleviews%3D46840'
+        self.cookie = 'Hm_lvt_d3e5f4edf98e3ec0ced6fc2c39b60bae=1563518499,1563757852,1564622064,1565052584; Hm_lvt_252f9a986eb5a291cc4f56bcecd88721=1567130746,1567236103,1567385806,1568682401; jieqiVisitTime=jieqiArticlesearchTime%3D1574156753; jieqiVisitId=article_articleviews%3D46840%7C23287'
         self.links = []
         self.downloaded = self.get_downloaded()
 

@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d0f06b-7885-4899-a38d-4f4a9c52bbbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dbipparse/dbipparse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbipparse/owtest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskdownload/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskdownload/flaskstart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/noveldownloader/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/noveldownloader/biquge/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tweet/seleniumlogin/tweetlogin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googledrive/gd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googledrive/gdapi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googledrive/treefile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweet/newtwittertest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweet/seleniumlogin/chromedriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweet/twitterspidertest/cookielogin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweet/twitterspidertest/twitterlogin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweet/twitterspidertest/useapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shensiwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shensiwork.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXP/exp_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXP/exp_template.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/noveldownloader/biquge/novel.py" beforeDir="false" afterPath="$PROJECT_DIR$/noveldownloader/biquge/novel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/noveldownloader/sometest.py" beforeDir="false" afterPath="$PROJECT_DIR$/noveldownloader/sometest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweet/tweetspider.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweet/tweetspider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweet/seleniumlogin/tweetlogin.py" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +36,11 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -46,25 +53,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gitcode\shensiwork\googledrive\files" />
+      <recent name="D:\gitcode\shensiwork\tweet\twitterspidertest" />
       <recent name="D:\gitcode\shensiwork\dbipparse" />
       <recent name="D:\gitcode\shensiwork\noveldownloader\biquge" />
       <recent name="D:\gitcode\shensiwork\noveldownloader" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.dbipparse">
-    <configuration name="dbipparse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.gdrive_api">
+    <configuration name="chromedriver" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,12 +69,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dbipparse" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tweet/seleniumlogin" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dbipparse/dbipparse.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tweet/seleniumlogin/chromedriver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +83,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="flaskstart" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,12 +91,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flaskdownload" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/googledrive" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flaskdownload/flaskstart.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/googledrive/gd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="owtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gdrive_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,12 +113,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dbipparse" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/googledrive" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dbipparse/owtest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/googledrive/gdrive_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="novel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="shensiwork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/noveldownloader/biquge" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/noveldownloader/biquge/novel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,29 +162,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tweet/seleniumlogin/tweetlogin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tweetspider" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="shensiwork" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tweet" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tweet/tweetspider.py" />
+      <option name="SCRIPT_NAME" value="D:\gitcode\shensiwork\tweet\seleniumlogin\chromedriver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,13 +173,25 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dbipparse" />
-        <item itemvalue="Python.owtest" />
-        <item itemvalue="Python.flaskstart" />
+        <item itemvalue="Python.gdrive_api" />
+        <item itemvalue="Python.gd" />
+        <item itemvalue="Python.chromedriver" />
         <item itemvalue="Python.tweetlogin" />
-        <item itemvalue="Python.tweetspider" />
+        <item itemvalue="Python.novel" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -207,7 +216,19 @@
       <workItem from="1566871122346" duration="3674000" />
       <workItem from="1566959931863" duration="3933000" />
       <workItem from="1567042478552" duration="1192000" />
-      <workItem from="1567733248963" duration="682000" />
+      <workItem from="1567733248963" duration="708000" />
+      <workItem from="1567993804763" duration="12665000" />
+      <workItem from="1568257763675" duration="6954000" />
+      <workItem from="1569825480826" duration="1310000" />
+      <workItem from="1570764004224" duration="61000" />
+      <workItem from="1571792022958" duration="2760000" />
+      <workItem from="1573023941255" duration="6872000" />
+      <workItem from="1573195867325" duration="1209000" />
+      <workItem from="1574156784294" duration="1024000" />
+      <workItem from="1576027460406" duration="4634000" />
+      <workItem from="1577263469097" duration="629000" />
+      <workItem from="1582516032873" duration="20423000" />
+      <workItem from="1582683830530" duration="33137000" />
     </task>
     <servers />
   </component>
@@ -227,6 +248,68 @@
       </map>
     </option>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="692" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582705190128">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="692" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582705190128" />
+    <state x="694" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582705535991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="694" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582705535991" />
+    <state x="1053" y="440" key="#xdebugger.evaluate" timestamp="1582773560710">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1053" y="440" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1582773560710" />
+    <state width="1250" height="466" key="DebuggerActiveHint" timestamp="1582717674061">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1250" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1582717674061" />
+    <state width="1877" height="315" key="GridCell.Tab.0.bottom" timestamp="1582788671934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582788671934" />
+    <state width="1877" height="315" key="GridCell.Tab.0.center" timestamp="1582788671934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582788671934" />
+    <state width="1877" height="315" key="GridCell.Tab.0.left" timestamp="1582788671934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582788671934" />
+    <state width="1877" height="315" key="GridCell.Tab.0.right" timestamp="1582788671934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582788671934" />
+    <state width="1877" height="315" key="GridCell.Tab.1.bottom" timestamp="1582788671934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582788671934" />
+    <state width="1877" height="315" key="GridCell.Tab.1.center" timestamp="1582788671934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582788671934" />
+    <state width="1877" height="315" key="GridCell.Tab.1.left" timestamp="1582788671934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582788671934" />
+    <state width="1877" height="315" key="GridCell.Tab.1.right" timestamp="1582788671934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582788671934" />
+    <state x="465" y="163" key="SettingsEditor" timestamp="1576027527447">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="465" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576027527447" />
+    <state x="645" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1582683836129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="645" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582683836129" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1582777144881">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582777144881" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -240,26 +323,72 @@
           <line>36</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tweet/twitterspidertest/twitterlogin.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tweet/twitterspidertest/twitterlogin.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tweet/twitterspidertest/twitterlogin.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tweet/newtwittertest.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tweet/seleniumlogin/chromedriver.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/googledrive/gdrive_api.py</url>
+          <line>180</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/googledrive/gdrive_api.py</url>
+          <line>262</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/anaconda/envs/py37/Lib/site-packages/google_auth_httplib2.py</url>
+          <line>196</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/googledrive/gdrive_api.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/googledrive/gdrive_api.py</url>
+          <line>211</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/shensiwork$tweetspider.coverage" NAME="tweetspider Coverage Results" MODIFIED="1564538528084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet" />
-    <SUITE FILE_PATH="coverage/shensiwork$owtest.coverage" NAME="owtest Coverage Results" MODIFIED="1566873966414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbipparse" />
-    <SUITE FILE_PATH="coverage/shensiwork$tweetlogin.coverage" NAME="tweetlogin Coverage Results" MODIFIED="1564653697315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet/seleniumlogin" />
-    <SUITE FILE_PATH="coverage/shensiwork$novel.coverage" NAME="novel Coverage Results" MODIFIED="1562729827848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader/biquge" />
-    <SUITE FILE_PATH="coverage/shensiwork$dbipparse.coverage" NAME="dbipparse Coverage Results" MODIFIED="1566982078523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbipparse" />
-    <SUITE FILE_PATH="coverage/shensiwork$jianlai.coverage" NAME="jianlai Coverage Results" MODIFIED="1562570324658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader/jianlai" />
+    <SUITE FILE_PATH="coverage/shensiwork$newtwittertest.coverage" NAME="newtwittertest Coverage Results" MODIFIED="1573032629964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet" />
     <SUITE FILE_PATH="coverage/shensiwork$sometest.coverage" NAME="sometest Coverage Results" MODIFIED="1562753273150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader" />
+    <SUITE FILE_PATH="coverage/shensiwork$chromedriver.coverage" NAME="chromedriver Coverage Results" MODIFIED="1576032578413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet/seleniumlogin" />
+    <SUITE FILE_PATH="coverage/shensiwork$jianlai.coverage" NAME="jianlai Coverage Results" MODIFIED="1562570324658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader/jianlai" />
+    <SUITE FILE_PATH="coverage/shensiwork$owtest.coverage" NAME="owtest Coverage Results" MODIFIED="1566873966414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbipparse" />
+    <SUITE FILE_PATH="coverage/shensiwork$gdrive_api.coverage" NAME="gdrive_api Coverage Results" MODIFIED="1582788635946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/googledrive" />
+    <SUITE FILE_PATH="coverage/shensiwork$dbipparse.coverage" NAME="dbipparse Coverage Results" MODIFIED="1566982078523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbipparse" />
     <SUITE FILE_PATH="coverage/shensiwork$flaskstart.coverage" NAME="flaskstart Coverage Results" MODIFIED="1565253519545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskdownload" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>inspect.getmembers('./biquge')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
+    <SUITE FILE_PATH="coverage/shensiwork$novel.coverage" NAME="novel Coverage Results" MODIFIED="1574156899586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader/biquge" />
+    <SUITE FILE_PATH="coverage/shensiwork$gd.coverage" NAME="gd Coverage Results" MODIFIED="1582536873507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/googledrive" />
+    <SUITE FILE_PATH="coverage/shensiwork$tweetspider.coverage" NAME="tweetspider Coverage Results" MODIFIED="1564538528084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet" />
+    <SUITE FILE_PATH="coverage/shensiwork$tweetlogin.coverage" NAME="tweetlogin Coverage Results" MODIFIED="1576029551790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet/seleniumlogin" />
+    <SUITE FILE_PATH="coverage/shensiwork$twitterlogin.coverage" NAME="twitterlogin Coverage Results" MODIFIED="1568017785387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet" />
   </component>
 </project>

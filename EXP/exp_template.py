@@ -76,7 +76,7 @@ class Exploit():
         
 import requests
 # 禁用安全请求警告
-from requests.packages.urllib3.exceptions import InsecureRequestWarning
+# from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 class session(requests.Session):
