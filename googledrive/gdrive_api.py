@@ -1,5 +1,3 @@
-from __future__ import print_function
-
 import io
 import os.path
 import pickle
@@ -111,22 +109,30 @@ class GDrive:
         #     q=f"'{fileid}' in parents",
         #     pageSize=100,
         #     fields="nextPageToken, files(id, name, mimeType, parents)").execute()
-        url = f'https://www.googleapis.com/drive/v3/files?q=%27{fileid}%27+in+parents&pageSize=100&fields=nextPageToken%2C+files%28id%2C+name%2C+mimeType%2C+parents%29&alt=json'
+        nextpage = True
+        url = f'https://www.googleapis.com/drive/v3/files?q=%27{fileid}%27+in+parents+and+trashed%3Dfalse&fields=nextPageToken%2C+files%28id%2C+name%2C+mimeType%2C+parents%29&alt=json'
         headers = {
             'accept': 'application/json',
             'accept-encoding': 'gzip, deflate',
             'user-agent': '(gzip)',
             'x-goog-api-client': 'gdcl/1.7.11 gl-python/3.7.5',
             'content-length': '0',
-            'authorization': 'Bearer ya29.ImC_BzgCWKw8ujkTHOda0wSBo5mZEUe-8y-RmNHirlnBz-LUI5R1JrAjRmbEEtYbHKbQh8wbRZBk4u9BuH6vcRCBTa0Ps9sjfArb-b0Nd0f387UDqj4yj2Yo3pKMCGUuSKM'
+            'authorization': 'Bearer ya29.a0Adw1xeX5oApGu9zUlPAJ2WxYOv9WzFCO4vCBNeLh5TH87WngkBYEXkWBd328JCimG2asKOYmcxhlruc2wOtDuKEIb_QkU8jzyTvB8mRTD-wd6wgSNs-SPIHmxKSEKEWL05eUchf2s3l5yGF2YPCGO98KeN3eXoraFo22'
         }
-        response = requests.get(url, headers=headers)
-        results = json.loads(response.text)
 
-        items = results.get('files', [])
-        for i in items:
-            gi = GItem(i["id"], i["name"], i["mimeType"])
-            yield gi
+        while nextpage:
+            response = requests.get(url, headers=headers)
+            results = json.loads(response.text)
+
+            items = results.get('files', [])
+            nextpagetoken = results.get('nextPageToken')
+            if nextpagetoken is not None:
+                url = f'https://www.googleapis.com/drive/v3/files?q=%27{fileid}%27+in+parents+and+trashed%3Dfalse&pageToken={nextpagetoken}&fields=nextPageToken%2C+files%28id%2C+name%2C+mimeType%2C+parents%29&alt=json'
+            else:
+                nextpage = False
+            for i in items:
+                gi = GItem(i["id"], i["name"], i["mimeType"])
+                yield gi
 
     def files_list(self):
         """获取所有文件"""
@@ -147,10 +153,18 @@ class GDrive:
         :return:
         """
         results = self.service.files().list(
-            q=f"'{fileid}' in parents",
-            pageSize=100,
+            q=f"'{fileid}' in parents and trashed=false",
             fields="nextPageToken, files(id, name, mimeType, parents)").execute()
+        nextpagetoken = results.get('nextPageToken')
         items = results.get('files', [])
+        if nextpagetoken is not None:
+            while nextpagetoken is not None:
+                results = self.service.files().list(
+                    q=f"'{fileid}' in parents and trashed=false",
+                    pageToken=nextpagetoken,
+                    fields="nextPageToken, files(id, name, mimeType, parents)").execute()
+                nextpagetoken = results.get('nextPageToken')
+        print(items)
         return items
 
     def upload_file(self):
@@ -264,17 +278,58 @@ class GDrive:
         #                                    fields='id, name, mimeType').execute()
         # print(file)
 
+    def delete(self, fileid):
+        """
+        删除1LxjDNEIiQkIWtJOqziqKJtoq6TDdMCUb
+        :return:
+        """
+        # file = self.service.files().delete(fileId='1LxjDNEIiQkIWtJOqziqKJtoq6TDdMCUb').execute()
+
+        # print(file)
+        # 删除文件
+        url = f'https://www.googleapis.com/drive/v3/files/{fileid}?'
+        headers = {
+            'accept': '*/*',
+            'accept-encoding': 'gzip, deflate',
+            'user-agent': '(gzip)',
+            'x-goog-api-client': 'gdcl/1.7.11 gl-python/3.7.5',
+            'content-length': '0',
+            'authorization': 'Bearer ya29.a0Adw1xeXEVdSLBz5I5QqCPtkL-WPoiH1X7ky0tA8M3USAHSF0CxtRxOtIyxmRwvbTpnBfUdvSS86o24Y64qatYteiCWiK-3wC49HucWJCyiLS6D-vtd1y_vK3CO2-o_7OsJK-liGsdSO1tKBfvtZIG7TJE-yIUy2IXYXn'
+        }
+        res = requests.delete(url, headers=headers)
+
+        # 清空回收站
+
+    def emptytrash(self):
+        """
+        清空垃圾箱
+        :return:
+        """
+        url = 'https://www.googleapis.com/drive/v2/files/trash'
+        headers = {
+            'accept': '*/*',
+            'accept-encoding': 'gzip, deflate',
+            'user-agent': '(gzip)',
+            'x-goog-api-client': 'gdcl/1.7.11 gl-python/3.7.5',
+            'content-length': '0',
+            'authorization': 'Bearer ya29.a0Adw1xeXEVdSLBz5I5QqCPtkL-WPoiH1X7ky0tA8M3USAHSF0CxtRxOtIyxmRwvbTpnBfUdvSS86o24Y64qatYteiCWiK-3wC49HucWJCyiLS6D-vtd1y_vK3CO2-o_7OsJK-liGsdSO1tKBfvtZIG7TJE-yIUy2IXYXn'
+        }
+        res = requests.delete(url, headers=headers)
+        print(res.text)
+
 
 if __name__ == '__main__':
     try:
         gd = GDrive()
 
-        # gd.get_tree()
-        # gd.files_list_folder()
+        gd.get_tree()
+        # gd.get_folder_files('16nk8rqIF6AY0seMAwT1hnFiufomNMNC8')
         # gd.upload_file()
-        gd.download_file(123)
+        # gd.download_file(123)
         # gd.get_file_list()
         # gd.mkdir()
+        # gd.delete()
+        # gd.emptytrash()
         print("OK")
     except Exception:
         traceback.print_exc()
