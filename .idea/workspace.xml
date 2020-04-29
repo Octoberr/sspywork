@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d0f06b-7885-4899-a38d-4f4a9c52bbbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/asyncio/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asyncio/asynciospidertemplate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asyncio/multipletaskparse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shensiwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shensiwork.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXP/exp_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXP/exp_template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/googledrive/gdrive_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/googledrive/gdrive_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/googledrive/token.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/googledrive/token.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncio/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/asyncio/gevent_async.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +48,29 @@
       <recent name="D:\gitcode\shensiwork\noveldownloader" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.gdrive_api">
+  <component name="RunManager" selected="Python.asynciospidertemplate">
+    <configuration name="asynciospidertemplate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="shensiwork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/asyncio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asyncio/asynciospidertemplate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="chromedriver" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,28 +137,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="novel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="shensiwork" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/noveldownloader/biquge" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/noveldownloader/biquge/novel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="tweetlogin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shensiwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.asynciospidertemplate" />
         <item itemvalue="Python.gdrive_api" />
         <item itemvalue="Python.gd" />
         <item itemvalue="Python.chromedriver" />
         <item itemvalue="Python.tweetlogin" />
-        <item itemvalue="Python.novel" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +221,9 @@
       <workItem from="1582791196547" duration="1695000" />
       <workItem from="1582793830529" duration="12644000" />
       <workItem from="1583112754659" duration="484000" />
-      <workItem from="1584083718648" duration="461000" />
+      <workItem from="1584083718648" duration="1765000" />
+      <workItem from="1584322367875" duration="410000" />
+      <workItem from="1585816857594" duration="1998000" />
     </task>
     <servers />
   </component>
@@ -274,22 +268,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="744" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582883431992" />
-    <state width="1877" height="601" key="GridCell.Tab.0.bottom" timestamp="1582875108272">
+    <state width="1877" height="342" key="GridCell.Tab.0.bottom" timestamp="1584086342269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="601" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582875108272" />
-    <state width="1877" height="601" key="GridCell.Tab.0.center" timestamp="1582875108272">
+    <state width="1877" height="342" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584086342269" />
+    <state width="1877" height="342" key="GridCell.Tab.0.center" timestamp="1584086342269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="601" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582875108272" />
-    <state width="1877" height="601" key="GridCell.Tab.0.left" timestamp="1582875108271">
+    <state width="1877" height="342" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584086342269" />
+    <state width="1877" height="342" key="GridCell.Tab.0.left" timestamp="1584086342269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="601" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582875108271" />
-    <state width="1877" height="601" key="GridCell.Tab.0.right" timestamp="1582875108272">
+    <state width="1877" height="342" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584086342269" />
+    <state width="1877" height="342" key="GridCell.Tab.0.right" timestamp="1584086342269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="601" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582875108272" />
+    <state width="1877" height="342" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584086342269" />
     <state width="1877" height="601" key="GridCell.Tab.1.bottom" timestamp="1582875108272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -314,10 +308,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="964" height="524" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1582872913776" />
-    <state x="645" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1582793867678">
+    <state x="645" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1584322813048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582793867678" />
+    <state x="645" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584322813048" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1582791603439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -419,6 +413,7 @@
     <SUITE FILE_PATH="coverage/shensiwork$sometest.coverage" NAME="sometest Coverage Results" MODIFIED="1562753273150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader" />
     <SUITE FILE_PATH="coverage/shensiwork$chromedriver.coverage" NAME="chromedriver Coverage Results" MODIFIED="1576032578413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tweet/seleniumlogin" />
     <SUITE FILE_PATH="coverage/shensiwork$jianlai.coverage" NAME="jianlai Coverage Results" MODIFIED="1562570324658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader/jianlai" />
+    <SUITE FILE_PATH="coverage/shensiwork$asynciospidertemplate.coverage" NAME="asynciospidertemplate Coverage Results" MODIFIED="1584086342259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/asyncio" />
     <SUITE FILE_PATH="coverage/shensiwork$owtest.coverage" NAME="owtest Coverage Results" MODIFIED="1566873966414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbipparse" />
     <SUITE FILE_PATH="coverage/shensiwork$gdrive_api.coverage" NAME="gdrive_api Coverage Results" MODIFIED="1582875036917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/googledrive" />
     <SUITE FILE_PATH="coverage/shensiwork$dbipparse.coverage" NAME="dbipparse Coverage Results" MODIFIED="1566982078523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbipparse" />
