@@ -12,6 +12,7 @@ from datetime import datetime
 from pathlib import Path
 from queue import Queue
 import traceback
+import argparse
 
 import pytz
 import requests
@@ -20,15 +21,33 @@ import requests
 class CTA(object):
 
     def __init__(self):
+        # 单机版可配置参数
+        self.parser = argparse.ArgumentParser()
+        self.parser.add_argument("-inputfile", "--inputfile_path", help="The path of input compare task")
+        self.parser.add_argument("-outputfile", "--outputfile_path", help="The path of output result")
+        self.parser.add_argument("-esurl", "--es_database_url", help="ES database address url")
+        self.args = self.parser.parse_args()
         # 文件锁
         self.__file_locker = threading.Lock()
         # ES地址
-        self.es_http_url = 'http://192.168.111.222:9200/dg-al-scoutLog/_search'
-        self._input_path = Path('./inputpath')
+        if self.args.es_database_url is not None:
+            self.es_http_url = self.args.es_database_url
+        else:
+            self.es_http_url = 'http://192.168.111.222:9200/dg-al-scoutLog/_search'
+        print(self.es_http_url)
+        if self.args.inputfile_path is not None:
+            self._input_path = Path(self.args.inputfile_path)
+        else:
+            self._input_path = Path('./inputpath')
+        print(self._input_path.as_posix())
         self._input_path.mkdir(exist_ok=True)
         self._tmp_path = Path('./tmppath')
         self._tmp_path.mkdir(exist_ok=True)
-        self._output_path = Path('./outputpath')
+        if self.args.outputfile_path is not None:
+            self._output_path = Path(self.args.outputfile_path)
+        else:
+            self._output_path = Path('./outputpath')
+        print(self._output_path.as_posix())
         self._output_path.mkdir(exist_ok=True)
         self.task_queue = Queue()
         self.suffix = '.iscan_period_vs_task'
@@ -356,14 +375,17 @@ class CTA(object):
 
 
 if __name__ == '__main__':
-    cta = CTA()
-    # 任务扫描线程
-    t1 = threading.Thread(target=cta.scan_task, name="GetCompareTask")
-    t1.start()
-    # 任务对比线程，这个如果到时候对比任务过多，那么会修改为多线程
-    t2 = threading.Thread(target=cta.deal_a_compare_task, name="StartCompareAlgorithm")
-    t2.start()
-    # 结果输出线程
-    t3 = threading.Thread(target=cta.output_compare_res, name="OutputCompareResult")
-    t3.start()
-    print("Start compare algorithm")
+    try:
+        cta = CTA()
+        # 任务扫描线程
+        t1 = threading.Thread(target=cta.scan_task, name="GetCompareTask")
+        t1.start()
+        # 任务对比线程，这个如果到时候对比任务过多，那么会修改为多线程
+        t2 = threading.Thread(target=cta.deal_a_compare_task, name="StartCompareAlgorithm")
+        t2.start()
+        # 结果输出线程
+        t3 = threading.Thread(target=cta.output_compare_res, name="OutputCompareResult")
+        t3.start()
+        print("Start compare algorithm")
+    except(KeyboardInterrupt):
+        print('Exit compare algorithm')

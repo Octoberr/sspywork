@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d0f06b-7885-4899-a38d-4f4a9c52bbbe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shensiwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shensiwork.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comparethealgorithm/cta.py" beforeDir="false" afterPath="$PROJECT_DIR$/comparethealgorithm/cta.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +34,13 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -213,7 +218,8 @@
       <workItem from="1590628766483" duration="15886000" />
       <workItem from="1591253201380" duration="28036000" />
       <workItem from="1591667131248" duration="3733000" />
-      <workItem from="1591672383708" duration="77000" />
+      <workItem from="1591672383708" duration="272000" />
+      <workItem from="1591672872676" duration="2678000" />
     </task>
     <servers />
   </component>
@@ -233,10 +239,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="744" y="276" key="FileChooserDialogImpl" timestamp="1591338330067">
+    <state x="744" y="276" key="FileChooserDialogImpl" timestamp="1591672921176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="744" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591338330067" />
+    <state x="744" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591672921176" />
     <state width="1245" height="311" key="GridCell.Tab.0.bottom" timestamp="1591351233909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -253,10 +259,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1245" height="311" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591351233908" />
-    <state x="356" y="269" width="1308" height="713" key="SettingsEditor" timestamp="1591667514594">
+    <state x="356" y="269" width="1308" height="713" key="SettingsEditor" timestamp="1591672945437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="356" y="269" width="1308" height="713" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591667514594" />
+    <state x="356" y="269" width="1308" height="713" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591672945437" />
     <state x="645" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1584322813048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
