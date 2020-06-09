@@ -34,12 +34,12 @@ class CTA(object):
             self.es_http_url = self.args.es_database_url
         else:
             self.es_http_url = 'http://192.168.111.222:9200/dg-al-scoutLog/_search'
-        print(self.es_http_url)
+        print(f'ES url:{self.es_http_url}')
         if self.args.inputfile_path is not None:
             self._input_path = Path(self.args.inputfile_path)
         else:
             self._input_path = Path('./inputpath')
-        print(self._input_path.as_posix())
+        print(f'Input task path:{self._input_path.as_posix()}')
         self._input_path.mkdir(exist_ok=True)
         self._tmp_path = Path('./tmppath')
         self._tmp_path.mkdir(exist_ok=True)
@@ -47,7 +47,7 @@ class CTA(object):
             self._output_path = Path(self.args.outputfile_path)
         else:
             self._output_path = Path('./outputpath')
-        print(self._output_path.as_posix())
+        print(f'Output result path:{self._output_path.as_posix()}')
         self._output_path.mkdir(exist_ok=True)
         self.task_queue = Queue()
         self.suffix = '.iscan_period_vs_task'
