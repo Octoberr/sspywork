@@ -146,27 +146,27 @@ class CTA(object):
             if total != 0 and now_get != 0 and (total == now_get or now_get > total):
                 break
             payload = f'''
-            {{
-            "query":{{
-                "bool":{{
-                    "filter":[
                         {{
-                            "term":{{
-                            "TaskId":"{taskid}"
-                            }}
-                        }},
-                        {{
-                            "term":{{
-                                "PeriodNum":"{periodnum}"
+                "query": {{
+                    "bool": {{
+                        "filter": [
+                            {{
+                                "term": {{
+                                    "TaskId": "{taskid}"
                                 }}
-                        }}
-                    ]
-                }}
-            }},
-            "from":{page},
-            "size":500
-        }}
-            '''
+                            }},
+                            {{
+                                "term": {{
+                                    "PeriodNum": "{periodnum}"
+                                }}
+                            }}
+                        ]
+                    }}
+                }},
+                "from": {page},
+                "size": 500
+            }}
+                        '''
             try:
                 res = requests.post(self.es_http_url, headers=headers, data=payload)
                 res.encoding = 'utf-8'
