@@ -25,16 +25,24 @@ class CTA(object):
         self.parser = argparse.ArgumentParser()
         self.parser.add_argument("-inputfile", "--inputfile_path", help="The path of input compare task")
         self.parser.add_argument("-outputfile", "--outputfile_path", help="The path of output result")
-        self.parser.add_argument("-esurl", "--es_database_url", help="ES database address url")
+        # self.parser.add_argument("-esurl", "--es_database_url", help="ES database address url")
+        self.parser.add_argument("-esinfofile", "--es_info_file", help="ES database address url")
         self.args = self.parser.parse_args()
         # 文件锁
         self.__file_locker = threading.Lock()
         # ES地址
-        if self.args.es_database_url is not None:
-            self.es_http_url = self.args.es_database_url
+        # if self.args.es_database_url is not None:
+        #     self.es_http_url = self.args.es_database_url
+        # else:
+        #     self.es_http_url = 'http://192.168.111.222:9200/dg-al-scoutLog/_search'
+        # print(f'ES url:{self.es_http_url}')
+        # 读取本地json文件获取es相关信息
+        if self.args.es_info_file is not None:
+            self.es_info_file = Path(self.args.es_info_file)
         else:
-            self.es_http_url = 'http://192.168.111.222:9200/dg-al-scoutLog/_search'
-        print(f'ES url:{self.es_http_url}')
+            self.es_info_file = Path('./esinfo.json')
+        self._init_esinfo()
+        print(f'ES url:{self.es_url}, welcome user:{self.es_user}')
         if self.args.inputfile_path is not None:
             self._input_path = Path(self.args.inputfile_path)
         else:
@@ -58,6 +66,17 @@ class CTA(object):
         self._output_queue = Queue()
         # 每次先处理一个任务，等到性能不够用了再扩展到多个任务
         self.ctaskid = None
+
+    def _init_esinfo(self):
+        """
+        初始化一些es信息
+        :return:
+        """
+        esinfo_str = self.es_info_file.read_text()
+        es_dict = json.loads(esinfo_str)
+        self.es_url = es_dict.get('es_url')
+        self.es_user = es_dict.get('es_user')
+        self.es_pwd = es_dict.get('es_pwd')
 
     @staticmethod
     def base64str(s: str,
@@ -156,6 +175,9 @@ class CTA(object):
         headers = {
             'Content-Type': 'application/json'
         }
+        if self.es_user is not None and self.es_user != '' and self.es_pwd is not None and self.es_pwd != '':
+            einfo = f'{self.es_user}:{self.es_pwd}'
+            headers['Authorization'] = f'Basic {self.base64str(einfo)}'
         page = 0  # 从0开始
         total = 0
         now_get = 0
@@ -187,7 +209,7 @@ class CTA(object):
             }}
                         '''
             try:
-                res = requests.post(self.es_http_url, headers=headers, data=payload)
+                res = requests.post(self.es_url, headers=headers, data=payload)
                 res.encoding = 'utf-8'
                 rdict = json.loads(res.text)
                 # 判断下是否访问成功
@@ -196,9 +218,13 @@ class CTA(object):
                     self.write_taskback(0, 0, "访问ES超时，请检查ES数据库和内网网络")
                     break
                 hits = rdict.get('hits')
+
                 # 如果是第一次去拿，那么需要统计下一共有多少数据
                 if total == 0:
                     total = hits.get('total')
+                    # 再判断一下如果没有获取到需要对比的信息
+                    if total == 0:
+                        break
                     if gettotal:  # 用于统计对比进度
                         self._compare_count = total
                 hits_res = hits.get('hits', [])
@@ -211,11 +237,38 @@ class CTA(object):
             finally:
                 time.sleep(1)
 
+    def _parse_one_ip_port_info(self, sdata: dict):
+        """
+        原始周期都有解析查询数据的一步，免得重复编写
+        :param sdata:
+        :return:
+        """
+        res = None
+        try:
+            rdata = sdata.get('_source')
+            ip = rdata.get('Ip')
+            # 一定会有一个port
+            portinfo = rdata.get('PortInfo')
+            if portinfo is None or len(portinfo) == 0:
+                print(f"No port info in ip :{ip}, please check original data")
+                return res
+            port = portinfo.get('Port')
+            if port is None:
+                print(f"Cant get port info in ip :{ip}, please check original data")
+            res = f'{ip}:{port}'
+        except Exception as err:
+            print(f"Parse sdata error\ndata:{sdata}\nerror:{traceback.format_exc()}")
+        finally:
+            return res
+
     def start_compare_algorithm(self, task: dict):
         """
         查询ES的表，查询出来的数据包括两个周期的数据
         只需要输出后面一个周期比前一个周期多的数据
         包括任务执行中的状态，执行完成的状态
+        modify by judy 2020/07/31
+        新的ES索引将数据拆分成了一个IP一个端口分别存储
+        每次去拿ip和端口即可
         :param task:
         :return:
         """
@@ -229,14 +282,11 @@ class CTA(object):
         # 创建一个字典来保存源周期的数据
         sdict = {}
         for el in self.connect_es_and_get_res(iscantaskid, speriod):
-            try:
-                rdata = el.get('_source')
-                ip = rdata.get('Ip')
-                # 一定会有一个port
-                port = rdata.get('PortInfo')[0].get('Port')
-                sdict[f'{ip}:{port}'] = 1
-            except Exception as err:
+            res = self._parse_one_ip_port_info(el)
+            if res is None:
                 print(f"Parse {speriod} period res error\nsource element data:{el}\nerr:{traceback.format_exc()}")
+                continue
+            sdict[res] = 1
 
         self.compare_src_and_dist_res(sdict, iscantaskid, dperiod)
 
@@ -261,13 +311,15 @@ class CTA(object):
         has_compare = 0
         for el in self.connect_es_and_get_res(iscantaskid, dperiod, True):
             try:
-                rdata = el.get('_source')
-                ip = rdata.get('Ip')
-                # 一定会有一个port
-                port = rdata.get('PortInfo')[0].get('Port')
-                repeat = sdict.get(f'{ip}:{port}', None)
+
+                res = self._parse_one_ip_port_info(el)
+                if res is None:
+                    print(f"Parse {dperiod} period res error\nsource element data:{el}\nerr:{traceback.format_exc()}")
+                    continue
+                repeat = sdict.get(res, None)
                 # 只输出新增数据
                 if repeat is None:
+                    rdata = el.get('_source')
                     self._output_queue.put(rdata)
             except Exception as err:
                 print(f"Parse {dperiod} period res error, err:{traceback.format_exc()}")

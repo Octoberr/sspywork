@@ -1,0 +1,5 @@
+{
+  "es_url": "http://192.168.111.222:9200/dg-al-scoutLog/_search",
+  "es_user": "elastic",
+  "es_pwd": "changeme"
+}
