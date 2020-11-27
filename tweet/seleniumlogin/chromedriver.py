@@ -27,9 +27,9 @@ class TweetLogin(object):
     def doit(self):
         chrome_options = ChromeOptions()
         # 无头
-        chrome_options.add_argument("--headless")
+        # chrome_options.add_argument("--headless")
         chrome_options.add_argument('lang=zh_CN.UTF-8')
-        # chrome_options.add_argument("--window-size=1920x1080")
+        chrome_options.add_argument("--window-size=1920x1080")
         chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36")
         # 禁用js
         # chrome_options.add_experimental_option("prefs", {'profile.managed_default_content_settings.javascript': 2})

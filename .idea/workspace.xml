@@ -1,7 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d9294918-2cb7-416d-b06b-8c48c8b36c83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/googlesearch/dgooglesearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlesearch/sometest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryleaks/memoryleak.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ptrans/tclient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ptrans/tserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweet/nojstweet/nojstweet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweet/seleniumlogin/seleniumtwitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweet/ttest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparethealgorithm/build/cta/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparethealgorithm/build/cta/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparethealgorithm/build/cta/PKG-00.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparethealgorithm/build/cta/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparethealgorithm/build/cta/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparethealgorithm/build/cta/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparethealgorithm/build/cta/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparethealgorithm/build/cta/cta.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparethealgorithm/build/cta/warn-cta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparethealgorithm/build/cta/xref-cta.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparethealgorithm/cta.py" beforeDir="false" afterPath="$PROJECT_DIR$/comparethealgorithm/cta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparethealgorithm/cta.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparethealgorithm/dist/cta.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweet/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tweet/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweet/seleniumlogin/chromedriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweet/seleniumlogin/chromedriver.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="17706122-c97e-4f09-91ae-e32f31857a76" />
+  <component name="ProjectId" id="1j5LZi5Gbe2Jn3XBYyr7iz2V6wC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="novel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sspywork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/noveldownloader/biquge" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/noveldownloader/biquge/novel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.novel" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9294918-2cb7-416d-b06b-8c48c8b36c83" name="Default Changelist" comment="" />
+      <created>1603089066493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603089066493</updated>
+      <workItem from="1603089067604" duration="2494000" />
+      <workItem from="1604028176142" duration="1742000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="300" key="GridCell.Tab.0.bottom" timestamp="1604036380820">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604036380820" />
+    <state width="1877" height="300" key="GridCell.Tab.0.center" timestamp="1604036380819">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="300" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604036380819" />
+    <state width="1877" height="300" key="GridCell.Tab.0.left" timestamp="1604036380819">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="300" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604036380819" />
+    <state width="1877" height="300" key="GridCell.Tab.0.right" timestamp="1604036380820">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="300" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604036380820" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/comparethealgorithm/cta.py</url>
+          <line>254</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sspywork$novel.coverage" NAME="novel Coverage Results" MODIFIED="1604028667467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/noveldownloader/biquge" />
   </component>
 </project>

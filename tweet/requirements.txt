@@ -1,7 +1,7 @@
-Flask==1.0.2
-gevent==1.3.3
-Scrapy==1.5.0
-requests==2.18.4
+Flask>=1.0.2
+gevent>=1.3.3
+Scrapy>=1.5.0
+requests>=2.18.4
 
 # 清华镜像pip install -r requirements https://pypi.tuna.tsinghua.edu.cn/simple
 

@@ -248,7 +248,10 @@ class CTA(object):
             rdata = sdata.get('_source')
             ip = rdata.get('Ip')
             # 一定会有一个port
-            portinfo = rdata.get('PortInfo')
+            # 新索引 2020/09/08
+            # portinfo = rdata.get('PortInfo')
+            # 旧索引 2020/09/08
+            portinfo = rdata.get('PortInfo')[0]
             if portinfo is None or len(portinfo) == 0:
                 print(f"No port info in ip :{ip}, please check original data")
                 return res
