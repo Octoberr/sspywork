@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "D:\\anaconda\\envs\\py36\\python.exe",
+    "python.formatting.provider": "autopep8"
+}
