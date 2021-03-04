@@ -1,7 +1,6 @@
 """
 1、文件到这里
 一份给ES 一份给自己
-新增ES旧索引入库
 在继承原有功能的基础上
 重构备份程序，按照数据内的
 国家-当前时间（年-月-日）
@@ -41,8 +40,6 @@ class ScanBackUP(object):
         self.copy_esinput_enable = True
         self._tmp = Path('./tmp')
         self._tmp.mkdir(exist_ok=True)
-        # 文件是否需要拷贝一份到旧索引
-        self._old_esinput = None
         self.config_path = Path(r'./config_path.json')
         try:
             self._init_cpinfo()
@@ -126,14 +123,6 @@ class ScanBackUP(object):
         # 默认拷贝到ES的功能为开放
         copy_esinput_enable = conf_dict.get('copy_to_esinput', True)
         self.copy_esinput_enable = copy_esinput_enable
-        # 拷贝旧索引数据
-        _old_esinput = conf_dict.get('old_esinput')
-        if not isinstance(_old_esinput, str):
-            raise Exception("Unknown old_esinput path")
-        self._old_esinput = Path(_old_esinput)
-        self._old_esinput.mkdir(exist_ok=True)
-        print(
-            f"Save data to old ES, old_espath:{self._old_esinput.as_posix()}")
 
     def scan_file(self):
         """
@@ -166,13 +155,8 @@ class ScanBackUP(object):
                     finally:
                         # 最后无论如何都需要将文件输出到esinput
                         if self.copy_esinput_enable:
-                            # 拷贝到新索引
                             outname = self._esinput / name
-                            copyfile(tmpname.as_posix(), outname.as_posix())
-                            # 拷贝到旧索引
-                            old_outname = self._old_esinput / name
-                            copyfile(tmpname.as_posix(),
-                                     old_outname.as_posix())
+                            tmpname.replace(outname)
                         # 一般来说是不会有文件存在的，但是意外不可避免嘛， 所以这里做一个判定，如果还存在文件就删了
                         if tmpname.exists():
                             tmpname.unlink()
@@ -180,7 +164,7 @@ class ScanBackUP(object):
                 print(f'Scan task file error, err:{traceback.format_exc()}')
                 continue
             finally:
-                # print("There is no scan data to back up")
+                print("There is no scan data to back up")
                 time.sleep(0.5)
 
     def _process_file(self, tmpfile: Path):

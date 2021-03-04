@@ -180,7 +180,7 @@ class ScanBackUP(object):
                 print(f'Scan task file error, err:{traceback.format_exc()}')
                 continue
             finally:
-                # print("There is no scan data to back up")
+                print("There is no scan data to back up")
                 time.sleep(0.5)
 
     def _process_file(self, tmpfile: Path):

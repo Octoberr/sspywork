@@ -1,6 +1,6 @@
 {
   "data_input": "./_input",
-  "es_input": "./newesinput",
+  "es_input": "./esinput",
   "backup_input": "./_backupinput",
   "databackup": "./_backup",
   "zipdata": "./_zipdata",

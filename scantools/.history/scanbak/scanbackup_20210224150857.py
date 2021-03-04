@@ -169,10 +169,9 @@ class ScanBackUP(object):
                             # 拷贝到新索引
                             outname = self._esinput / name
                             copyfile(tmpname.as_posix(), outname.as_posix())
-                            # 拷贝到旧索引
+                            # 拷贝带旧索引
                             old_outname = self._old_esinput / name
-                            copyfile(tmpname.as_posix(),
-                                     old_outname.as_posix())
+
                         # 一般来说是不会有文件存在的，但是意外不可避免嘛， 所以这里做一个判定，如果还存在文件就删了
                         if tmpname.exists():
                             tmpname.unlink()
@@ -180,7 +179,7 @@ class ScanBackUP(object):
                 print(f'Scan task file error, err:{traceback.format_exc()}')
                 continue
             finally:
-                # print("There is no scan data to back up")
+                print("There is no scan data to back up")
                 time.sleep(0.5)
 
     def _process_file(self, tmpfile: Path):

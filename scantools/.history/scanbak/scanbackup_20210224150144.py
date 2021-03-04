@@ -132,8 +132,7 @@ class ScanBackUP(object):
             raise Exception("Unknown old_esinput path")
         self._old_esinput = Path(_old_esinput)
         self._old_esinput.mkdir(exist_ok=True)
-        print(
-            f"Save data to old ES, old_espath:{self._old_esinput.as_posix()}")
+        print(f"Save data to ES, es_path:{self._esinput.as_posix()}")
 
     def scan_file(self):
         """
@@ -166,13 +165,8 @@ class ScanBackUP(object):
                     finally:
                         # 最后无论如何都需要将文件输出到esinput
                         if self.copy_esinput_enable:
-                            # 拷贝到新索引
                             outname = self._esinput / name
-                            copyfile(tmpname.as_posix(), outname.as_posix())
-                            # 拷贝到旧索引
-                            old_outname = self._old_esinput / name
-                            copyfile(tmpname.as_posix(),
-                                     old_outname.as_posix())
+                            tmpname.replace(outname)
                         # 一般来说是不会有文件存在的，但是意外不可避免嘛， 所以这里做一个判定，如果还存在文件就删了
                         if tmpname.exists():
                             tmpname.unlink()
@@ -180,7 +174,7 @@ class ScanBackUP(object):
                 print(f'Scan task file error, err:{traceback.format_exc()}')
                 continue
             finally:
-                # print("There is no scan data to back up")
+                print("There is no scan data to back up")
                 time.sleep(0.5)
 
     def _process_file(self, tmpfile: Path):

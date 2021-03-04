@@ -1,6 +1,6 @@
 {
   "data_input": "./_input",
-  "es_input": "./newesinput",
+  "es_input": "./esinput",
   "backup_input": "./_backupinput",
   "databackup": "./_backup",
   "zipdata": "./_zipdata",
@@ -9,6 +9,6 @@
   "zipdata_thread": 1,
   "time_limit": 1,
   "copy_to_esinput": false,
-  "old_esinput": "./oldesinput",
+  "old_esinput": "./esinput",
   "explain": "配置文件字段说明，data_input:输入文件的路径接filetransfer，es_input:es的入库路径，backup_input:处理备份数据的路径，databackup:备份程序的备份目录，zipdata:存放备份压缩文件的目录， zipsize:当文件达到这个阈值时压缩备份、单位：MB,backup_thread:备份文件的线程数，如果数据量大堆积的文件非常多就增加线程,zipdata_thread:压缩文件的线程数，如果需要压缩的备份文件非常多，也建议增加线程, time_limit:单位：天，超过这个时间没有达到备份标准也会备份, old_esinput:ES的旧索引"
 }
