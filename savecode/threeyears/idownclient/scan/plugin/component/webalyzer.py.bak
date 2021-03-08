@@ -1,0 +1,344 @@
+"""
+这里使用的npm安装的webappalyzer
+这样使用不仅免费而且快、结果全
+create by judy 2019/08/05
+"""
+import os
+import signal
+import psutil
+import json
+import re
+import traceback
+from subprocess import PIPE, Popen, TimeoutExpired
+
+from commonbaby.httpaccess import HttpAccess
+from commonbaby.mslog import MsLogger, MsLogManager
+
+from idownclient.clientdatafeedback.scoutdatafeedback import Component
+from .cmsfinger import cmsver
+
+
+class WebAlyzer(object):
+    def __init__(self, task):
+        self.task = task
+        self._logger: MsLogger = MsLogManager.get_logger("webalyzer")
+
+        self._cmsver_lower = {}
+        for k, v in cmsver.items():
+            self._cmsver_lower[k.lower()] = v
+
+    def __parse_alyzer_res(self, res: str):
+        """
+        解析拿到的结果，
+        :param res: json data
+        :return:
+        """
+        data = json.loads(res)
+        # self._logger.debug(res)
+        app = data.get("technologies", [])
+        if len(app) > 0:
+            for appinfo in app:
+                categorys = appinfo.get("categories")
+                # {
+                #     "slug": "wordpress",
+                #     "name": "WordPress",
+                #     "confidence": 100,
+                #     "version": null,
+                #     "icon": "WordPress.svg",
+                #     "website": "https://wordpress.org",
+                #     "cpe": "cpe:/a:wordpress:wordpress",
+                #     "categories": [
+                #         {
+                #             "id": 1,
+                #             "slug": "cms",
+                #             "name": "CMS"
+                #         },
+                #         {
+                #             "id": 11,
+                #             "slug": "blogs",
+                #             "name": "Blogs"
+                #         }
+                #     ]
+                # }
+                if isinstance(categorys, list):
+                    for category in categorys:
+                        yield (
+                            category,
+                            appinfo.get("name"),
+                            appinfo.get("website"),
+                            appinfo.get("version"),
+                        )
+                elif isinstance(categorys, dict):
+                    yield (
+                        categorys,
+                        appinfo.get("name"),
+                        appinfo.get("website"),
+                        appinfo.get("version"),
+                    )
+
+    def get_alyzer_res(self, level, url: str):
+        """
+        这里去获取结果
+        :param level:
+        :param url:
+        :return:
+        """
+        # 为url添加头
+        res = None
+        target = url
+        if not (url.startswith("https://") or url.startswith("http://")):
+            target = "http://" + url
+        # -w是ms单位，即超过那个时间后就不再继续搞了
+        proc = Popen(
+            f"wappalyzer {target} -d false -w 10000 -b 1 -t 500 --html-max-cols=2000 --html-max-rows=2000 -D 3 -m 10",
+            stdout=PIPE,
+            shell=True,
+        )
+        try:
+            # 最多等待10秒，如果10秒都还不能加载出来那么就算了
+            outs, errs = None, None
+
+            outs, errs = proc.communicate(timeout=15)
+            res = outs.decode("utf-8")
+            #             res = '''
+            #             [
+            #     {
+            #         "slug": "wordpress",
+            #         "name": "WordPress",
+            #         "confidence": 100,
+            #         "version": null,
+            #         "icon": "WordPress.svg",
+            #         "website": "https://wordpress.org",
+            #         "cpe": "cpe:/a:wordpress:wordpress",
+            #         "categories": [
+            #             {
+            #                 "id": 1,
+            #                 "slug": "cms",
+            #                 "name": "CMS"
+            #             },
+            #             {
+            #                 "id": 11,
+            #                 "slug": "blogs",
+            #                 "name": "Blogs"
+            #             }
+            #         ]
+            #     },
+            #     {
+            #         "slug": "mysql",
+            #         "name": "MySQL",
+            #         "confidence": 100,
+            #         "version": null,
+            #         "icon": "MySQL.svg",
+            #         "website": "http://mysql.com",
+            #         "cpe": "cpe:/a:mysql:mysql",
+            #         "categories": [
+            #             {
+            #                 "id": 34,
+            #                 "slug": "databases",
+            #                 "name": "Databases"
+            #             }
+            #         ]
+            #     },
+            #     {
+            #         "slug": "php",
+            #         "name": "PHP",
+            #         "confidence": 100,
+            #         "version": null,
+            #         "icon": "PHP.svg",
+            #         "website": "http://php.net",
+            #         "cpe": "cpe:/a:php:php",
+            #         "categories": [
+            #             {
+            #                 "id": 27,
+            #                 "slug": "programming-languages",
+            #                 "name": "Programming languages"
+            #             }
+            #         ]
+            #     },
+            #     {
+            #         "slug": "tengine",
+            #         "name": "Tengine",
+            #         "confidence": 100,
+            #         "version": null,
+            #         "icon": "Tengine.png",
+            #         "website": "http://tengine.taobao.org",
+            #         "cpe": null,
+            #         "categories": [
+            #             {
+            #                 "id": 22,
+            #                 "slug": "web-servers",
+            #                 "name": "Web servers"
+            #             }
+            #         ]
+            #     },
+            #     {
+            #         "slug": "font-awesome",
+            #         "name": "Font Awesome",
+            #         "confidence": 100,
+            #         "version": "4.7.0",
+            #         "icon": "font-awesome.svg",
+            #         "website": "https://fontawesome.com/",
+            #         "cpe": null,
+            #         "categories": [
+            #             {
+            #                 "id": 17,
+            #                 "slug": "font-scripts",
+            #                 "name": "Font scripts"
+            #             }
+            #         ]
+            #     },
+            #     {
+            #         "slug": "baidu-analytics",
+            #         "name": "Baidu Analytics (百度统计)",
+            #         "confidence": 100,
+            #         "version": null,
+            #         "icon": "Baidu Tongji.png",
+            #         "website": "https://tongji.baidu.com/",
+            #         "cpe": null,
+            #         "categories": [
+            #             {
+            #                 "id": 10,
+            #                 "slug": "analytics",
+            #                 "name": "Analytics"
+            #             }
+            #         ]
+            #     },
+            #     {
+            #         "slug": "jquery",
+            #         "name": "jQuery",
+            #         "confidence": 100,
+            #         "version": "2.0.3",
+            #         "icon": "jQuery.svg",
+            #         "website": "https://jquery.com",
+            #         "cpe": "cpe:/a:jquery:jquery",
+            #         "categories": [
+            #             {
+            #                 "id": 59,
+            #                 "slug": "javascript-libraries",
+            #                 "name": "JavaScript libraries"
+            #             }
+            #         ]
+            #     }
+            # ]
+            #             '''
+            app_iter = self.__parse_alyzer_res(res)
+            for category, name, comurl, version in app_iter:
+                ctname = category.get("name")
+                if ctname is None:
+                    continue
+                if ctname.lower() == "cms":
+                    self._logger.debug("Start CMS ver detection: {}".format(url))
+                    ver = self._recognize_cms_ver(url, name)
+                    if ver is not None:
+                        version = ver
+                        self._logger.debug(
+                            "Got cms version: {}:{}".format(name, version)
+                        )
+
+                com = Component(self.task, level, name)
+                com.category = ctname
+                com.url = comurl
+                com.ver = version
+                # continue
+                yield com
+        except TimeoutExpired:
+            self._logger.error("Wappalyzer timeout after 70S, give up")
+        except Exception as errs:
+            # 记录下目前出现的bug
+            # 1、执行这句命令报错
+            # 2、执行成功，但是拿到的结果不是json，可能没有拿到结果
+            self._logger.error(
+                f"Wappaylyzer found nothing\ncmd:wappalyzer {target} -w 10000\nerr:{traceback.format_exc()}\nGet analyzer res:{errs}"
+            )
+        finally:
+            if proc is not None:
+                try:
+                    pid = proc.pid
+                    parent = psutil.Process(pid)
+                    self._logger.debug(f"Kill timeout wappaylyzer pid:{pid}")
+                    children = parent.children(recursive=True)
+                    for child in children:
+                        try:
+                            child.send_signal(signal.SIGTERM)
+                        except:
+                            continue
+                except:
+                    pass
+                finally:
+                    proc.kill()
+
+    def _recognize_cms_ver(self, host: str, name: str) -> str:
+        """recognize cms and version"""
+        ver: str = None
+        try:
+            if not self._cmsver_lower.__contains__(name.lower()):
+                return ver
+
+            path, rgx = self._cmsver_lower[name.lower()]
+
+            ver: str = self._get_cms_ver(host, path, rgx)
+
+        except Exception:
+            self._logger.error(
+                "Recognize cms err: host={} name={} err={}".format(
+                    host, name, traceback.format_exc()
+                )
+            )
+        return ver
+
+    def _get_cms_ver(self, host: str, path: str, rgx: re.Pattern):
+        ver: str = None
+        try:
+            ha = HttpAccess()
+
+            # access home page to get cookie
+            url = host
+            if not url.startswith("http"):
+                url = "http://" + host.strip("/")
+            self._logger.debug("Get CMS ver home: {}".format(url))
+            ha.getstring(
+                url,
+                headers="""
+            Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+            Accept-Encoding: gzip, deflate
+            Accept-Language: en-US,en;q=0.9
+            Cache-Control: no-cache
+            Pragma: no-cache
+            Proxy-Connection: keep-alive
+            Upgrade-Insecure-Requests: 1
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36""",
+                timeout=10,
+            )
+
+            # access version page
+            url = host.strip("/") + "/" + path.lstrip("/")
+            if not url.startswith("http"):
+                url = "http://" + host.strip("/") + "/" + path.lstrip("/")
+            self._logger.debug("Get CMS ver subpath: {}".format(url))
+            html = ha.getstring(
+                url,
+                headers="""
+            Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+            Accept-Encoding: gzip, deflate
+            Accept-Language: en-US,en;q=0.9
+            Cache-Control: no-cache
+            Pragma: no-cache
+            Proxy-Connection: keep-alive
+            Upgrade-Insecure-Requests: 1
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36""",
+                timeout=10,
+            )
+
+            if html is None or html == "":
+                return ver
+
+            # <version>(.+)</version>
+            m: re.Match = re.search(rgx, html, re.S)
+            if m is None:
+                return ver
+
+            ver = m.group(1)
+
+        except Exception as e:
+            self._logger.error("Get joomla version faile: {} {}".format(host, e.args))
+        return ver

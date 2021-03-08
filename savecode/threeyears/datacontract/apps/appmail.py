@@ -1,0 +1,195 @@
+"""
+邮箱app
+todo
+返回一个appcfg给server哪些插件开启
+"""
+
+from idownclient.spider import spidermail
+
+from .appbase import AppConfig, EAppClassify, EServiceType
+
+Mail_apps = {
+    # 邮箱类
+    3001:
+    AppConfig(
+        appname='21cn邮箱',
+        apphosts=["mail.21cn.com"],
+        apptype=3001,
+        appclassify=EAppClassify.Mail,
+        appclass=spidermail.Spider21CN,
+    ),
+    3002:
+    AppConfig(
+        appname='126邮箱',
+        apphosts=["mail.126.com"],
+        apptype=3002,
+        appclassify=EAppClassify.Mail,
+        appclass=spidermail.Spider126,
+        crosswall=False,
+        enable=True,
+    ),
+    3003:
+    AppConfig(
+        appname='163邮箱',
+        apphosts=["mail.163.com"],
+        apptype=3003,
+        appclassify=EAppClassify.Mail,
+        appclass=spidermail.Spider163,
+        crosswall=False,
+        enable=True,
+    ),
+    3004:
+    AppConfig(
+        appname='gmail邮箱',
+        apphosts=["mail.google.com", "mail.gmail.com"],
+        apptype=3004,
+        appclassify=EAppClassify.Mail,
+        appclass=spidermail.SpiderGmail,
+        crosswall=True,
+        enable=True,
+    ),
+    3005:
+    AppConfig(
+        appname='outlook邮箱',
+        apphosts=[
+            "outlook.live.com", "live.com", "hotmail.com", "msn.com",
+            "outlook.com"
+        ],
+        apptype=3005,
+        appclassify=EAppClassify.Mail,
+        appclass=spidermail.SpiderOutlook,
+        crosswall=True,
+        enable=True,
+    ),
+    3006:
+    AppConfig(
+        appname='新浪邮箱',
+        apphosts=["mail.sina.com", "mail.vip.sina.com"],
+        apptype=3006,
+        appclassify=EAppClassify.Mail,
+        appclass=spidermail.SpiderSina,
+        crosswall=False,
+        requirepreaccount=True,
+        enable=True,
+    ),
+    3007:
+    AppConfig(
+        appname='搜狐邮箱',
+        apphosts=["mail.sohu.com"],
+        apptype=3007,
+        appclassify=EAppClassify.Mail,
+        appclass=spidermail.SpiderSohu,
+    ),
+    3008:
+    AppConfig(
+        appname='沃邮箱',
+        apphosts=["mail.wo.com.cn"],
+        apptype=3008,
+        appclassify=EAppClassify.Mail,
+        appclass=spidermail.SpiderWo,
+    ),
+    3009:
+    AppConfig(
+        appname='雅虎邮箱',
+        apphosts=[
+            "mail.yahoo.com", "mail.ymail.com", "mail.rocketmail.com",
+            "mail.kimo.com"
+        ],
+        apptype=3009,
+        appclassify=EAppClassify.Mail,
+        appclass=spidermail.SpiderYahoo,
+        crosswall=True,
+        enable=True,
+    ),
+    3010:
+    AppConfig(
+        appname='10086邮箱',
+        apphosts=["mail.10086.cn"],
+        apptype=3010,
+        appclassify=EAppClassify.Mail,
+        appclass=spidermail.Spider10086,
+        crosswall=False,
+        enable=True,
+    ),
+    3011:
+    AppConfig(
+        appname='tom邮箱',
+        apphosts=["mail.tom.com", "mail1.tom.com", "mm.163.net:8088"],
+        apptype=3011,
+        appclassify=EAppClassify.Mail,
+        appclass=spidermail.SpiderTom,
+        crosswall=False,
+        enable=True,
+    ),
+    3012:
+    AppConfig(
+        appname='189邮箱',
+        apphosts=["mail.189.cn"],
+        apptype=3012,
+        appclassify=EAppClassify.Mail,
+        appclass=spidermail.Spider189,
+        crosswall=False,
+        enable=True,
+    ),
+    3013:
+    AppConfig(
+        appname='qq邮箱',
+        apphosts=["mail.qq.com", "mail.vip.qq.com"],
+        apptype=3013,
+        appclassify=EAppClassify.Mail,
+        appclass=spidermail.SpiderQq,
+        crosswall=False,
+        enable=True,
+    ),
+    3014:
+    AppConfig(
+        appname='yeah邮箱',
+        apphosts=["mail.yeah.net", "mail.vip.yeah.net"],
+        apptype=3014,
+        appclassify=EAppClassify.Mail,
+        appclass=spidermail.SpiderYeah,
+        crosswall=False,
+        enable=True,
+    ),
+    3015:
+    AppConfig(
+        appname='阿里云邮箱',
+        apphosts=["mail.aliyun.com"],
+        apptype=3015,
+        appclassify=EAppClassify.Mail,
+        appclass=spidermail.SpiderAliyun,
+        crosswall=False,
+        enable=True,
+    ),
+    3016:
+    AppConfig(
+        appname='126VIP',
+        apphosts=["webmail.vip.126.com"],
+        apptype=3016,
+        appclassify=EAppClassify.Mail,
+        appclass=spidermail.Spider126Vip,
+        crosswall=False,
+        enable=True,
+    ),
+    3017:
+    AppConfig(
+        appname='163VIP',
+        apphosts=["webmail.vip.163.com"],
+        apptype=3017,
+        appclassify=EAppClassify.Mail,
+        appclass=spidermail.Spider163vip,
+        crosswall=False,
+        enable=True,
+    ),
+    3018:
+    AppConfig(
+        appname='Zimbra',
+        apphosts=["169.254.75.129", "correo.mrecic.gov.ar"],
+        apptype=3018,
+        appclassify=EAppClassify.Mail,
+        appclass=spidermail.SpiderZimbra,
+        crosswall=True,
+        enable=True,
+        ishttps=True,
+    ),
+}

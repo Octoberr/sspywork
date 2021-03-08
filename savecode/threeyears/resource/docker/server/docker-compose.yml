@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  idownserver:
+    image: idownserver:201118
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: idownserver
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /home/idownserver:/home/idownserver
+    restart: unless-stopped

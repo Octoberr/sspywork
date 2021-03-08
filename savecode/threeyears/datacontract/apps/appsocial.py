@@ -1,0 +1,84 @@
+"""
+社交的app集合
+"""
+from .appbase import EAppClassify, AppConfig
+from idownclient.spider import spidersocial
+
+Social_apps = {
+    # 社交软件类
+    1001:
+        AppConfig(
+            appname='telegram',
+            apphosts=["telegram.org"],
+            apptype=1001,
+            appclassify=EAppClassify.Social,
+            appclass=spidersocial.SpiderTelegram,
+            crosswall=True,
+            enable=True),
+    1002:
+        AppConfig(
+            appname='messenger',
+            apphosts=["messenger.com"],
+            apptype=1002,
+            appclassify=EAppClassify.Social,
+            appclass=spidersocial.SpiderMessenger,
+            crosswall=True,
+            enable=True),
+    1003:
+        AppConfig(
+            appname='百度贴吧',
+            apphosts=["tieba.baidu.com"],
+            apptype=1003,
+            appclassify=EAppClassify.Social,
+            appclass=spidersocial.SpiderBaiduTieba),
+    1004:
+        AppConfig(
+            appname='facebook',
+            apphosts=["www.facebook.com"],
+            apptype=1004,
+            appclassify=EAppClassify.Social,
+            appclass=spidersocial.SpiderFaceBook),
+    1005:
+        AppConfig(
+            appname='skype',
+            apphosts=["skype.gmw.cn"],
+            apptype=1005,
+            appclassify=EAppClassify.Social,
+            appclass=spidersocial.SpiderSkype),
+    1006:
+        AppConfig(
+            appname='twitter',
+            apphosts=["twitter.com"],
+            apptype=1006,
+            appclassify=EAppClassify.Social,
+            appclass=spidersocial.SpiderTwitter),
+    1007:
+        AppConfig(
+            appname='youtube',
+            apphosts=["www.youtube.com"],
+            apptype=1007,
+            appclassify=EAppClassify.Social,
+            appclass=spidersocial.SpiderYoutube),
+    1008:
+        AppConfig(
+            appname='yy语音',
+            apphosts=["www.yy.com"],
+            apptype=1008,
+            appclassify=EAppClassify.Social,
+            appclass=spidersocial.SpiderYy),
+    1009:
+        AppConfig(
+            appname='新浪微博',
+            apphosts=["weibo.com"],
+            apptype=1009,
+            appclassify=EAppClassify.Social,
+            appclass=spidersocial.SpiderWeibo),
+    1010:
+        AppConfig(
+            appname='抖音',
+            apphosts=["douyin.com"],
+            apptype=1010,
+            appclassify=EAppClassify.Social,
+            appclass=spidersocial.SpiderDouyin,
+            enable=True),
+}

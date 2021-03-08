@@ -1,0 +1,24 @@
+version: "3.7"
+
+# 如果是在虚拟机上进行docker-compose操作，
+# 需要关闭SE-linux： 执行 setenforce 0
+
+services:
+  idownclient:
+    image: idownclient:210205
+    build:
+      context: .
+      shm_size: "1gb"
+      dockerfile: ./Dockerfile
+    shm_size: "1gb"
+    container_name: idownclient
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /home/idownclient:/home/idownclient
+    # 目前不需要做限制了
+    # deploy:
+    #   resources:
+    #     limits:
+    #       cpus: "4"
+    #       memory: 12G
+    restart: unless-stopped

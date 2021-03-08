@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <type name="aliyun">
+    <imap enable="1" host="imap.aliyun.com" port="993"></imap>
+    <pop3 enable="1" host="pop3.aliyun.com" port="995"></pop3>
+  </type>
+  <type name="gmail">
+    <imap enable="1" host="imap.gmail.com" port="993"></imap>
+    <pop3 enable="1" host="pop.gmail.com" port="995"></pop3>
+  </type>
+  <type name="qq">
+    <imap enable="1" host="imap.qq.com" port="993"></imap>
+    <pop3 enable="1" host="pop.qq.com" port="995"></pop3>
+  </type>
+  <type name="139">
+    <imap enable="1" host="imap.10086.cn" port="993"></imap>
+    <pop3 enable="1" host="pop.10086.cn" port="995"></pop3>
+  </type>
+  <type name="189">
+    <imap enable="1" host="imap.189.cn" port="993"></imap>
+    <pop3 enable="1" host="pop.189.cn" port="995"></pop3>
+  </type>
+  <type name="126">
+    <imap enable="1" host="imap.126.com" port="993"></imap>
+    <pop3 enable="1" host="pop.126.com" port="995"></pop3>
+  </type>
+  <type name="163">
+    <imap enable="1" host="imap.163.com" port="993"></imap>
+    <pop3 enable="1" host="pop.163.com" port="995"></pop3>
+  </type>
+  <type name="yahoo">
+    <imap enable="1" host="imap.mail.yahoo.com" port="993"></imap>
+    <pop3 enable="1" host="pop.mail.yahoo.com" port="995"></pop3>
+  </type>
+  <type name="21cn">
+    <imap enable="1" host="imap.21cn.com" port="993"></imap>
+    <pop3 enable="1" host="pop.21cn.com" port="995"></pop3>
+  </type>
+  <type name="sina">
+    <imap enable="1" host="imap.sina.com" port="993"></imap>
+    <pop3 enable="1" host="pop3.sina.com.cn" port="995"></pop3>
+  </type>
+  <type name="tom">
+    <imap enable="1" host="imap.tom.com" port="143"></imap>
+    <pop3 enable="1" host="pop.tom.com" port="110"></pop3>
+  </type>
+  <type name="sohu">
+    <imap enable="1" host="imap.sohu.com" port="993"></imap>
+    <pop3 enable="1" host="pop3.sohu.com" port="995"></pop3>
+  </type>
+  <type name="umail163">
+    <imap enable="1" host="umail163.cn4e.com" port="143"></imap>
+    <pop3 enable="1" host="umail163.cn4e.com" port="110"></pop3>
+  </type>
+  <type name="yeah">
+    <imap enable="1" host="imap.yeah.net" port="993" />
+    <pop3 enable="1" host="pop.yeah.net" port="995" />
+  </type>
+  <type name="aol">
+    <imap enable="1" host="imap.aol.com" port="993" />
+    <pop3 enable="1" host="pop.aol.com" port="995" />
+  </type>
+  <type name="fastmail">
+    <imap enable="0" host="" port="" />
+    <pop3 enable="1" host="pop.fastmail.fm" port="110" />
+  </type>
+  <type name="korea">
+    <imap enable="0" host="" port="" />
+    <pop3 enable="1" host="pop.korea.com" port="110" />
+  </type>
+  <type name="hotmail">
+    <imap enable="1" host="imap-mail.outlook.com" port="993" />
+    <pop3 enable="1" host="pop-mail.outlook.com" port="995" />
+  </type>
+  <type name="hanmail">
+    <imap enable="1" host="imap.daum.net" port="993" />
+    <pop3 enable="1" host="pop.daum.net" port="995" />
+  </type>
+  <type name="hushmail">
+    <imap enable="1" host="mailserver4.hushmail.com" port="993" />
+    <pop3 enable="1" host="mailserver4.hushmail.com" port="995" />
+  </type>
+  <type name="muchomail">
+    <imap enable="1" host="imap.muchomail.com" port="993" />
+    <pop3 enable="1" host="pop.muchomail.com" port="995" />
+  </type>
+  <type name="yandex.ru">
+    <imap enable="1" host="imap.yandex.com" port="993" />
+    <pop3 enable="1" host="pop.yandex.com" port="995" />
+  </type>
+  <type name="netvigator">
+    <imap enable="1" host="imap.netvigator.com" port="993" />
+    <pop3 enable="1" host="pop.netvigator.com" port="995" />
+  </type>
+  <type name="macau.ctm">
+    <imap enable="0" host="" port="" />
+    <pop3 enable="1" host="pop3.macau.ctm.net" port="995" />
+  </type>
+  <type name="moit.gov.vn">
+    <imap enable="1" host="mail.moit.gov.vn" port="993" />
+    <pop3 enable="1" host="mail.moit.gov.vn" port="995" />
+  </type>
+</root>
