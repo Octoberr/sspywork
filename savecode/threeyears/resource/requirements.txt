@@ -15,7 +15,7 @@ maxminddb>=1.4.1
 pyOpenSSL>=19.0.0
 shodan>=1.21.2
 tld>=0.12.2
-numpy==1.19.3
+numpy==1.22.0
 opencv-python==4.4.0.44
 websocket-client==0.57.0
 python-Wappalyzer==0.3.1
